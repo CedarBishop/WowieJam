@@ -6,18 +6,20 @@ public class Zone : MonoBehaviour
 {
     [HideInInspector] public bool touchingPlayer = false;
 
-    void OnTriggerStay2D(Collider2D col)
+    void OnCollisionStay2D(Collision2D col)
     {
-        if (col.CompareTag("Player"))
+        if (col.gameObject.tag == "Player")
         {
             touchingPlayer = true;
+            Debug.Log("In");
         }
     }
-    void OnTriggerExit2D(Collider2D col)
+    void OnCollisionExit2D(Collision2D col)
     {
-        if (col.CompareTag("Player"))
+        if (col.gameObject.tag == "Player")
         {
             touchingPlayer = false;
+            Debug.Log("Out");
         }
     }
 }
