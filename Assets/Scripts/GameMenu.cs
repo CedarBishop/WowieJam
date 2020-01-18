@@ -34,7 +34,7 @@ public class GameMenu : MonoBehaviour
 
     public void UpdateUI()
     {
-     //   attackCountText.text = player.attackCount.ToString();
-     //   stepCountText.text = player.stepCount.ToString();
+        attackCountText.text = player.attackCount.ToString();
+        stepCountText.text = player.stepCount.ToString();
     }
 }

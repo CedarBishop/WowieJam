@@ -363,7 +363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 489c91d6a5c3d4346ae69c3c20e3be79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletCountText: {fileID: 4329236945126284499}
+  attackCountText: {fileID: 4329236945126284499}
   stepCountText: {fileID: 4329236943253424826}
   transistionImage: {fileID: 4329236944581241182}
 --- !u!1 &4329236944882929063
