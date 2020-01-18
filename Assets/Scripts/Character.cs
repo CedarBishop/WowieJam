@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum Direction { Up, Right, Down, Left}
-public enum LocalDirection { Forward, Right, Back, Left}
 
 
 public class Character : MonoBehaviour
 {
     public Direction startingDirection;
-    [SerializeField] private Direction direction;
+    private Direction direction;
     public float speed;
     public LayerMask UnwalkableLayer;
+    public ParticleSystem deathPartlecFX;
     Vector2 target;
     bool canMove;
 
@@ -50,26 +50,26 @@ public class Character : MonoBehaviour
         // Move Forward
         if (Input.GetKeyDown(KeyCode.W))
         {
-            if(CheckIfCanMoveInDirection(LocalDirection.Forward))
-                 StartCoroutine(MoveTo(LocalDirection.Forward));
+            if(CheckIfCanMoveInDirection(Direction.Up))
+                 StartCoroutine(MoveTo(Direction.Up));
         }
         // Strafe Left
         if (Input.GetKeyDown(KeyCode.A))
         {
-            if (CheckIfCanMoveInDirection(LocalDirection.Left))
-                StartCoroutine(MoveTo(LocalDirection.Left));
+            if (CheckIfCanMoveInDirection(Direction.Left))
+                StartCoroutine(MoveTo(Direction.Left));
         }
         // Move Backward
         if (Input.GetKeyDown(KeyCode.S))
         {
-            if (CheckIfCanMoveInDirection(LocalDirection.Back))
-                StartCoroutine(MoveTo(LocalDirection.Back));
+            if (CheckIfCanMoveInDirection(Direction.Down))
+                StartCoroutine(MoveTo(Direction.Down));
         }
         // Strafe Right
         if (Input.GetKeyDown(KeyCode.D))
         {
-            if (CheckIfCanMoveInDirection(LocalDirection.Right))
-                StartCoroutine(MoveTo(LocalDirection.Right));
+            if (CheckIfCanMoveInDirection(Direction.Right))
+                StartCoroutine(MoveTo(Direction.Right));
         }
         // Rotate Anti-Clockwise
         if (Input.GetKeyDown(KeyCode.LeftArrow))
@@ -101,22 +101,22 @@ public class Character : MonoBehaviour
         }
     }
 
-
-    IEnumerator MoveTo(LocalDirection localDirection)
+    // moves one tile in the direction of travel
+    IEnumerator MoveTo(Direction d)
     {
         canMove = false;
-        switch (localDirection)
+        switch (d)
         {
-            case LocalDirection.Forward:
+            case Direction.Up:
                 target = transform.position + transform.up;
                 break;
-            case LocalDirection.Back:
+            case Direction.Down:
                 target = transform.position + -transform.up;
                 break;
-            case LocalDirection.Left:
+            case Direction.Left:
                 target = transform.position + -transform.right;
                 break;
-            case LocalDirection.Right:
+            case Direction.Right:
                 target = transform.position + transform.right;
                 break;
             default:
@@ -134,55 +134,35 @@ public class Character : MonoBehaviour
 
         transform.position = target;
         canMove = true;
+        TileCheck();
     }
 
-    bool CheckIfCanMoveInDirection (LocalDirection localDirection)
+
+    // Checks to see if there is a wall in the direction the character is facing if so return false and dont move
+    bool CheckIfCanMoveInDirection (Direction d)
     {
-        switch (localDirection)
+        switch (d)
         {
-            case LocalDirection.Forward:
+            case Direction.Up:
                 return (!Physics2D.Raycast(transform.position,transform.up,1,UnwalkableLayer));
                 
-            case LocalDirection.Right:
+            case Direction.Right:
                 return (!Physics2D.Raycast(transform.position, transform.right, 1, UnwalkableLayer));
 
-            case LocalDirection.Back:
+            case Direction.Down:
                 return (!Physics2D.Raycast(transform.position, -transform.up, 1, UnwalkableLayer));
 
-            case LocalDirection.Left:
+            case Direction.Left:
                 return (!Physics2D.Raycast(transform.position, -transform.right, 1, UnwalkableLayer));
 
             default:
                 return false;
                 
         }
-        return false;
     }
 
-    //private void OnDrawGizmos()
-    //{
-    //    Gizmos.color = Color.red;
-    //    Vector2 d = Vector2.up;
-    //    switch (direction)
-    //    {
-    //        case Direction.Up:
-    //            d = Vector2.up;
-    //            break;
-    //        case Direction.Right:
-    //            d = Vector2.right;
-    //            break;
-    //        case Direction.Down:
-    //            d = Vector2.down;
-    //            break;
-    //        case Direction.Left:
-    //            d = Vector2.left;
-    //            break;
-    //        default:
-    //            break;
-    //    }
-    //    Gizmos.DrawLine(transform.position, new Vector2(transform.position.x, transform.position.y) + (d * 10));
-    //}
 
+    // Raycasts in the direction the character is facing, cycles though the array of what was raycasted, if there were any characters other than this instance, destroy them
     void Shoot ()
     {        
         Vector2 d = Vector2.up;
@@ -203,20 +183,21 @@ public class Character : MonoBehaviour
             default:
                 break;
         }
+
         RaycastHit2D[] hit = Physics2D.RaycastAll(transform.position,d,10);
-        //Debug.DrawRay(transform.position,d,Color.green,10);
+
+
         if (hit == null)
         {
             return;
         }
         for (int i = 0; i < hit.Length; i++)
         {
-            
+            //cycles though the array of what was raycasted, if there were any characters other than this instance, destroy them
             if (hit[i].collider.gameObject != gameObject)
             {
                 if (hit[i].collider.GetComponent<Character>())
                 {
-                    print("sgewrggs");
                     hit[i].collider.GetComponent<Character>().Die();
                 }
             }
@@ -224,15 +205,43 @@ public class Character : MonoBehaviour
         }
     }
 
-    public void Die()
+    // Dying sequence
+    public virtual void Die()
     {
+        print("Played base death");
         StartCoroutine("DelayDeath");
-        print("Triggered Die Function");
+        ParticleSystem p = Instantiate(deathPartlecFX,transform.position,Quaternion.identity);
+        p.Play();
+        Destroy(p.gameObject,0.2f);
     }
 
+    // Delay so dying animation can be played
     IEnumerator DelayDeath ()
     {
         yield return new WaitForSeconds(0.1f);
         Destroy(gameObject);
+    }
+
+    // Check if there are any other characters on this tile, if so destroy all characters on this tile
+    void TileCheck ()
+    {
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 0.25f);
+        if (colliders == null)
+        {
+            return;
+        }
+
+        for (int i = 0; i < colliders.Length; i++)
+        {
+            if (colliders[i].gameObject != gameObject)
+            {
+                if (colliders[i].GetComponent<Character>())
+                {
+                    colliders[i].GetComponent<Character>().Die();
+                    Die();
+                }
+            }
+        }
+
     }
 }

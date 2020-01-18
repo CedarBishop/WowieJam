@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : Character
+public class Enemy : Character
 {
     public override void Die()
     {
         base.Die();
-        print("is Player");
+        print("Is Enemy");
     }
 }
