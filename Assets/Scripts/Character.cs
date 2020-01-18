@@ -11,15 +11,16 @@ public class Character : MonoBehaviour
     private Direction direction;
     public float speed;
     public LayerMask UnwalkableLayer;
-    public ParticleSystem deathPartlecFX;
+    public ParticleSystem deathParticleFX;
     public int bulletCount;
     public int stepCount;
     Vector2 target;
     bool canMove;
+    private LevelManager lm;
 
     void Start()
     {
-
+        lm = GameObject.FindGameObjectWithTag("Manager").GetComponent<LevelManager>();
         // Set starting Rotation
         canMove = true;
         direction = startingDirection;
@@ -104,6 +105,11 @@ public class Character : MonoBehaviour
                 Shoot();
             }            
         }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            lm.RestartLevel();
+        }
+
     }
 
     // moves one tile in the direction of travel
@@ -226,7 +232,7 @@ public class Character : MonoBehaviour
     public virtual void Die()
     {
         StartCoroutine("DelayDeath");
-        ParticleSystem p = Instantiate(deathPartlecFX,transform.position,Quaternion.identity);
+        ParticleSystem p = Instantiate(deathParticleFX, transform.position,Quaternion.identity);
         p.Play();
         Destroy(p.gameObject,0.2f);
     }

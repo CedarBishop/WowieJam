@@ -8,12 +8,15 @@ public class LevelManager : MonoBehaviour
     public static LevelManager instance = null;
     public static List<Enemy> enemies = new List<Enemy>();
 
-    public string nextLevel;
+   
+    public string[] levels;
     private string mainMenuName = "MainMenu";
 
     private string targetScene;
 
     Animator transitionAnimator;
+
+    private int currentLevel = 0;
 
     private void Awake()
     {
@@ -40,8 +43,9 @@ public class LevelManager : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        targetScene = nextLevel;
+        targetScene = levels[currentLevel + 1];
         StartCoroutine("Transistion");
+        currentLevel++;
     }
 
     public void RestartLevel ()
