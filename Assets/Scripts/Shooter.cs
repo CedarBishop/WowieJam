@@ -10,6 +10,7 @@ public class Shooter : Enemy
     {
         if (attackCount > 0)
         {
+            SoundManager.PlaySound("Shoot");
             attackCount--;
             Vector2 d = Vector2.up;
             switch (base.direction)

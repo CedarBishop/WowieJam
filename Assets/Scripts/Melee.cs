@@ -14,12 +14,13 @@ public class Melee : Enemy
         if (attackCount > 0)
         {
             attackCount--;
+            SoundManager.PlaySound("Shoot");
             RaycastHit2D[] hit = Physics2D.BoxCastAll(transform.position, size, 0, Vector2.up);
             if (hit == null)
             {
                 return;
             }
-
+            SoundManager.PlaySound("Hit");
             for (int i = 0; i < hit.Length; i++)
             {
                 if (hit[i].collider.gameObject != gameObject)

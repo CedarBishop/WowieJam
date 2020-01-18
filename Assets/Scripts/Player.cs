@@ -17,6 +17,7 @@ public class Player : Character
         if (attackCount > 0)
         {
             attackCount--;
+            SoundManager.PlaySound("Shoot");
             Vector2 d = Vector2.up;
             switch (base.direction)
             {
@@ -43,6 +44,7 @@ public class Player : Character
             {
                 return;
             }
+            SoundManager.PlaySound("Hit");
             for (int i = 0; i < hit.Length; i++)
             {
                 //cycles though the array of what was raycasted, if there were any characters other than this instance, destroy them
