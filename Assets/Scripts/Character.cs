@@ -19,6 +19,7 @@ public class Character : MonoBehaviour
 
     void Start()
     {
+        SoundManager.PlaySound("Transistion");
         lm = GameObject.FindGameObjectWithTag("Manager").GetComponent<LevelManager>();
         // Set starting Rotation
         canMove = true;
@@ -53,29 +54,34 @@ public class Character : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
         {
             if(CheckIfCanMoveInDirection(Direction.Up))
-                 StartCoroutine(MoveTo(Direction.Up));
+                SoundManager.PlaySound("Move");
+                StartCoroutine(MoveTo(Direction.Up));
         }
         // Strafe Left
         if (Input.GetKeyDown(KeyCode.A))
         {
             if (CheckIfCanMoveInDirection(Direction.Left))
                 StartCoroutine(MoveTo(Direction.Left));
+                SoundManager.PlaySound("Move");
         }
         // Move Backward
         if (Input.GetKeyDown(KeyCode.S))
         {
             if (CheckIfCanMoveInDirection(Direction.Down))
                 StartCoroutine(MoveTo(Direction.Down));
+                SoundManager.PlaySound("Move");
         }
         // Strafe Right
         if (Input.GetKeyDown(KeyCode.D))
         {
             if (CheckIfCanMoveInDirection(Direction.Right))
                 StartCoroutine(MoveTo(Direction.Right));
+                SoundManager.PlaySound("Move");
         }
         // Rotate Anti-Clockwise
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
+            SoundManager.PlaySound("Move");
             transform.Rotate(0,0, 90);
             int directionNum = (int)direction;
             directionNum--;
@@ -88,6 +94,7 @@ public class Character : MonoBehaviour
         //Rotate Clockwise
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
+            SoundManager.PlaySound("Move");
             transform.Rotate(0,0,-90);
             int directionNum = (int)direction;
             directionNum++;
@@ -104,6 +111,7 @@ public class Character : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             lm.RestartLevel();
+            SoundManager.PlaySound("Move");
         }
 
     }
@@ -188,9 +196,9 @@ public class Character : MonoBehaviour
 
         if (gameObject.GetComponent<Melee>() != null) gameObject.GetComponent<Melee>().Attack();
 
-        if (gameObject.GetComponent<Player>() != null) gameObject.GetComponent<Player>().Attack();
+        if (gameObject.GetComponent<Player>() != null) gameObject.GetComponent<Player>().Attack(); 
 
-       
+
     }
 
     // Dying sequence

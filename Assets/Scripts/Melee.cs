@@ -10,14 +10,13 @@ public class Melee : Enemy
 
     private void Start()
     {
-        player = GameObject.Find("Player").GetComponent<Player>();
+        player = FindObjectOfType<Player>();
     }
     public void Attack()
     {
         if (attackCount > 0 && gameObject.GetComponentInChildren<Zone>().touchingPlayer == true)
         {
             player.Die();
-            LevelManager.instance.RestartLevel();
         }
     }
 }
