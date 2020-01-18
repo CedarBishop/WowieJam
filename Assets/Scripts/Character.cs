@@ -15,12 +15,10 @@ public class Character : MonoBehaviour
     public int stepCount;
     Vector2 target;
     bool canMove;
-    private LevelManager lm;
 
     void Start()
     {
         SoundManager.PlaySound("Transistion");
-        lm = GameObject.FindGameObjectWithTag("Manager").GetComponent<LevelManager>();
         // Set starting Rotation
         canMove = true;
         direction = startingDirection;
@@ -110,7 +108,7 @@ public class Character : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
-            lm.RestartLevel();
+            LevelManager.instance.RestartLevel();
             SoundManager.PlaySound("Move");
         }
 
@@ -225,6 +223,15 @@ public class Character : MonoBehaviour
         if (colliders == null)
         {
             return;
+        }
+
+        for (int i = 0; i < colliders.Length; i++)
+        {           
+            if (colliders[i].GetComponent<PushTile>())
+            {
+                StartCoroutine(MoveTo(colliders[i].GetComponent<PushTile>().direction));
+                return;
+            }           
         }
 
         for (int i = 0; i < colliders.Length; i++)
