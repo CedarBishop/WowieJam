@@ -35,7 +35,7 @@ public class SoundManager : MonoBehaviour
                 audioSrc.volume = 1f;
                 break;
             case "Transistion":
-                audioSrc.volume = 0.5f;
+                audioSrc.volume = 0.3f;
                 audioSrc.PlayOneShot(Transistion);
                 audioSrc.volume = 1f;
                 break;
