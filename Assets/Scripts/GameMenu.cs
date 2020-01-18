@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameMenu : MonoBehaviour
 {
     public static GameMenu instance = null;
-    public Text bulletCountText;
+    public Text attackCountText;
     public Text stepCountText;
     public Animator transistionImage;
     private Player player;
@@ -28,13 +28,13 @@ public class GameMenu : MonoBehaviour
 
     private void Start()
     {
-        player = FindObjectOfType<Player>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         UpdateUI();
     }
 
     public void UpdateUI()
     {
-        bulletCountText.text = player.bulletCount.ToString();
-        stepCountText.text = player.stepCount.ToString();
+     //   attackCountText.text = player.attackCount.ToString();
+     //   stepCountText.text = player.stepCount.ToString();
     }
 }

@@ -2,15 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : Character
+public class Shooter : Enemy
 {
     public int attackCount = 4;
-
-    public override void Die()
-    {
-        base.Die();
-        LevelManager.instance.RestartLevel(); 
-    }
+    private Character character;
 
     public void Attack()
     {

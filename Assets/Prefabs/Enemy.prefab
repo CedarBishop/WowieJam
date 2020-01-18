@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 132598627278208429}
   - component: {fileID: 132598627278208430}
   - component: {fileID: 132598627278208428}
-  - component: {fileID: 7023020421407703843}
+  - component: {fileID: 2926436745511072276}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -100,7 +100,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7023020421407703843
+--- !u!114 &2926436745511072276
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,18 +109,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 132598627278208416}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a97bd40c59fe3824bba2e78d0fd47943, type: 3}
+  m_Script: {fileID: 11500000, guid: 44a2c9f93c36fde439ab02de5f0d92d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   startingDirection: 0
+  direction: 0
   speed: 5
   UnwalkableLayer:
     serializedVersion: 2
     m_Bits: 256
   deathParticleFX: {fileID: 2513062219277334930, guid: 272f7f3f691e3f84aaf54a48ba59b2be,
     type: 3}
-  bulletCount: 0
-  stepCount: 0
+  stepCount: 3
+  attackCount: 4
+  attackCount: 4
 --- !u!1 &7005383541842977930
 GameObject:
   m_ObjectHideFlags: 0

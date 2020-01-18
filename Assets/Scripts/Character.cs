@@ -8,11 +8,10 @@ public enum Direction { Up, Right, Down, Left}
 public class Character : MonoBehaviour
 {
     public Direction startingDirection;
-    private Direction direction;
+    [HideInInspector]public Direction direction;
     public float speed;
     public LayerMask UnwalkableLayer;
     public ParticleSystem deathParticleFX;
-    public int bulletCount;
     public int stepCount;
     Vector2 target;
     bool canMove;
@@ -100,10 +99,7 @@ public class Character : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
         {
-            if (bulletCount > 0)
-            {
-                Shoot();
-            }            
+                Attack();          
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
@@ -184,48 +180,15 @@ public class Character : MonoBehaviour
 
 
     // Raycasts in the direction the character is facing, cycles though the array of what was raycasted, if there were any characters other than this instance, destroy them
-    void Shoot ()
+    void Attack ()
     {
-        bulletCount--;
         GameMenu.instance.UpdateUI();
-        Vector2 d = Vector2.up;
-        switch (direction)
-        {
-            case Direction.Up:
-                d = Vector2.up;
-                break;
-            case Direction.Right:
-                d = Vector2.right;
-                break;
-            case Direction.Down:
-                d = Vector2.down;
-                break;
-            case Direction.Left:
-                d = Vector2.left;
-                break;
-            default:
-                break;
-        }
 
-        RaycastHit2D[] hit = Physics2D.RaycastAll(transform.position,d,10);
+        if (gameObject.GetComponent<Shooter>() != null) gameObject.GetComponent<Shooter>().Attack();
 
+        if (gameObject.GetComponent<Player>() != null) gameObject.GetComponent<Player>().Attack();
 
-        if (hit == null)
-        {
-            return;
-        }
-        for (int i = 0; i < hit.Length; i++)
-        {
-            //cycles though the array of what was raycasted, if there were any characters other than this instance, destroy them
-            if (hit[i].collider.gameObject != gameObject)
-            {
-                if (hit[i].collider.GetComponent<Character>())
-                {
-                    hit[i].collider.GetComponent<Character>().Die();
-                }
-            }
-           
-        }
+        //if (gameObject.GetComponent<Melee>() != null) gameObject.GetComponent<Melee>().Attack();
     }
 
     // Dying sequence

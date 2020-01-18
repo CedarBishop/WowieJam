@@ -113,14 +113,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingDirection: 0
+  direction: 0
   speed: 5
   UnwalkableLayer:
     serializedVersion: 2
     m_Bits: 256
   deathParticleFX: {fileID: 2513062219277334930, guid: 272f7f3f691e3f84aaf54a48ba59b2be,
     type: 3}
-  bulletCount: 0
-  stepCount: 0
+  stepCount: 3
 --- !u!1 &515512923284919002
 GameObject:
   m_ObjectHideFlags: 0

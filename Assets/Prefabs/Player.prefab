@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2599044756540618859}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,14 +113,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingDirection: 0
+  direction: 0
   speed: 5
   UnwalkableLayer:
     serializedVersion: 2
     m_Bits: 256
   deathParticleFX: {fileID: 2513062219277334930, guid: 272f7f3f691e3f84aaf54a48ba59b2be,
     type: 3}
-  bulletCount: 0
-  stepCount: 0
+  stepCount: 3
+  attackCount: 4
 --- !u!1 &7005383541842977930
 GameObject:
   m_ObjectHideFlags: 0
