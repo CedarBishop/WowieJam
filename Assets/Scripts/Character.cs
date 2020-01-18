@@ -9,7 +9,7 @@ public enum LocalDirection { Forward, Right, Back, Left}
 public class Character : MonoBehaviour
 {
     public Direction startingDirection;
-    
+    [SerializeField] private Direction direction;
     public float speed;
     public LayerMask UnwalkableLayer;
     Vector2 target;
@@ -20,6 +20,7 @@ public class Character : MonoBehaviour
 
         // Set starting Rotation
         canMove = true;
+        direction = startingDirection;
         switch (startingDirection)
         {
             case Direction.Up:
@@ -74,11 +75,29 @@ public class Character : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             transform.Rotate(0,0, 90);
+            int directionNum = (int)direction;
+            directionNum--;
+            if (directionNum == -1)
+            {
+                directionNum = 3;
+            }
+            direction = (Direction)directionNum;
         }
         //Rotate Clockwise
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             transform.Rotate(0,0,-90);
+            int directionNum = (int)direction;
+            directionNum++;
+            if (directionNum == 4)
+            {
+                directionNum = 0;
+            }
+            direction = (Direction)directionNum;
+        }
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
+        {
+            Shoot();
         }
     }
 
@@ -125,18 +144,95 @@ public class Character : MonoBehaviour
                 return (!Physics2D.Raycast(transform.position,transform.up,1,UnwalkableLayer));
                 
             case LocalDirection.Right:
-                return (!Physics2D.Raycast(transform.position, transform.up, 1, UnwalkableLayer));
+                return (!Physics2D.Raycast(transform.position, transform.right, 1, UnwalkableLayer));
 
             case LocalDirection.Back:
-                return (!Physics2D.Raycast(transform.position, transform.up, 1, UnwalkableLayer));
+                return (!Physics2D.Raycast(transform.position, -transform.up, 1, UnwalkableLayer));
 
             case LocalDirection.Left:
-                return (!Physics2D.Raycast(transform.position, transform.up, 1, UnwalkableLayer));
+                return (!Physics2D.Raycast(transform.position, -transform.right, 1, UnwalkableLayer));
 
             default:
                 return false;
                 
         }
         return false;
+    }
+
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.color = Color.red;
+    //    Vector2 d = Vector2.up;
+    //    switch (direction)
+    //    {
+    //        case Direction.Up:
+    //            d = Vector2.up;
+    //            break;
+    //        case Direction.Right:
+    //            d = Vector2.right;
+    //            break;
+    //        case Direction.Down:
+    //            d = Vector2.down;
+    //            break;
+    //        case Direction.Left:
+    //            d = Vector2.left;
+    //            break;
+    //        default:
+    //            break;
+    //    }
+    //    Gizmos.DrawLine(transform.position, new Vector2(transform.position.x, transform.position.y) + (d * 10));
+    //}
+
+    void Shoot ()
+    {        
+        Vector2 d = Vector2.up;
+        switch (direction)
+        {
+            case Direction.Up:
+                d = Vector2.up;
+                break;
+            case Direction.Right:
+                d = Vector2.right;
+                break;
+            case Direction.Down:
+                d = Vector2.down;
+                break;
+            case Direction.Left:
+                d = Vector2.left;
+                break;
+            default:
+                break;
+        }
+        RaycastHit2D[] hit = Physics2D.RaycastAll(transform.position,d,10);
+        //Debug.DrawRay(transform.position,d,Color.green,10);
+        if (hit == null)
+        {
+            return;
+        }
+        for (int i = 0; i < hit.Length; i++)
+        {
+            
+            if (hit[i].collider.gameObject != gameObject)
+            {
+                if (hit[i].collider.GetComponent<Character>())
+                {
+                    print("sgewrggs");
+                    hit[i].collider.GetComponent<Character>().Die();
+                }
+            }
+           
+        }
+    }
+
+    public void Die()
+    {
+        StartCoroutine("DelayDeath");
+        print("Triggered Die Function");
+    }
+
+    IEnumerator DelayDeath ()
+    {
+        yield return new WaitForSeconds(0.1f);
+        Destroy(gameObject);
     }
 }
