@@ -186,9 +186,11 @@ public class Character : MonoBehaviour
 
         if (gameObject.GetComponent<Shooter>() != null) gameObject.GetComponent<Shooter>().Attack();
 
+        if (gameObject.GetComponent<Melee>() != null) gameObject.GetComponent<Melee>().Attack();
+
         if (gameObject.GetComponent<Player>() != null) gameObject.GetComponent<Player>().Attack();
 
-        //if (gameObject.GetComponent<Melee>() != null) gameObject.GetComponent<Melee>().Attack();
+       
     }
 
     // Dying sequence
@@ -208,6 +210,7 @@ public class Character : MonoBehaviour
     }
 
     // Check if there are any other characters on this tile, if so destroy all characters on this tile
+    //possible bug areaxd
     void TileCheck ()
     {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 0.25f);

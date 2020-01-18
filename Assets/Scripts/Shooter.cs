@@ -5,7 +5,6 @@ using UnityEngine;
 public class Shooter : Enemy
 {
     public int attackCount = 4;
-    private Character character;
 
     public void Attack()
     {

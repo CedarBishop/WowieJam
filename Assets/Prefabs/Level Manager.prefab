@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7847043371355650065}
   m_Layer: 0
   m_Name: Level Manager
-  m_TagString: Untagged
+  m_TagString: Manager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levels:
-  - cbLevel2
-  - cbLevel1
+  - cblevel2
+  - cblevel3

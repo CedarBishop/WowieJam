@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class Zone : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D col)
+    [HideInInspector] public bool touchingPlayer = false;
+
+    void OnTriggerStay2D(Collider2D col)
     {
         if (col.CompareTag("Player"))
         {
-
+            touchingPlayer = true;
+        }
+    }
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.CompareTag("Player"))
+        {
+            touchingPlayer = false;
         }
     }
 }

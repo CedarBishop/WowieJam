@@ -277,6 +277,11 @@ PrefabInstance:
       propertyPath: stepCount
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2926436745511072276, guid: b1fd0338feefc544d90a80074998630e,
+        type: 3}
+      propertyPath: startingDirection
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1fd0338feefc544d90a80074998630e, type: 3}
 --- !u!1 &99429689
@@ -2893,7 +2898,8 @@ PrefabInstance:
       propertyPath: stepCount
       value: 4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7023020421407703843, guid: b1fd0338feefc544d90a80074998630e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b1fd0338feefc544d90a80074998630e, type: 3}
 --- !u!1 &1938751486
 GameObject:

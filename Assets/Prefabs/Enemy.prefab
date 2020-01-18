@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2926436745511072276}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,7 +121,6 @@ MonoBehaviour:
   deathParticleFX: {fileID: 2513062219277334930, guid: 272f7f3f691e3f84aaf54a48ba59b2be,
     type: 3}
   stepCount: 3
-  attackCount: 4
   attackCount: 4
 --- !u!1 &7005383541842977930
 GameObject:
