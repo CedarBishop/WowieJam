@@ -7,6 +7,6 @@ public class Player : Character
     public override void Die()
     {
         base.Die();
-        print("is Player");
+        LevelManager.instance.RestartLevel(); 
     }
 }

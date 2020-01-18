@@ -12,6 +12,8 @@ public class Character : MonoBehaviour
     public float speed;
     public LayerMask UnwalkableLayer;
     public ParticleSystem deathPartlecFX;
+    public int bulletCount;
+    public int stepCount;
     Vector2 target;
     bool canMove;
 
@@ -97,44 +99,57 @@ public class Character : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
         {
-            Shoot();
+            if (bulletCount > 0)
+            {
+                Shoot();
+            }            
         }
     }
 
     // moves one tile in the direction of travel
     IEnumerator MoveTo(Direction d)
     {
-        canMove = false;
-        switch (d)
+        if (stepCount > 0)
         {
-            case Direction.Up:
-                target = transform.position + transform.up;
-                break;
-            case Direction.Down:
-                target = transform.position + -transform.up;
-                break;
-            case Direction.Left:
-                target = transform.position + -transform.right;
-                break;
-            case Direction.Right:
-                target = transform.position + transform.right;
-                break;
-            default:
-                target = transform.position;
-                break;
+            canMove = false;
+            switch (d)
+            {
+                case Direction.Up:
+                    target = transform.position + transform.up;
+                    break;
+                case Direction.Down:
+                    target = transform.position + -transform.up;
+                    break;
+                case Direction.Left:
+                    target = transform.position + -transform.right;
+                    break;
+                case Direction.Right:
+                    target = transform.position + transform.right;
+                    break;
+                default:
+                    target = transform.position;
+                    break;
+            }
+
+            stepCount--;
+            GameMenu.instance.UpdateUI();
+            target = new Vector2(Mathf.RoundToInt(target.x), Mathf.RoundToInt(target.y));
+
+            while (Vector2.Distance(target, transform.position) > Mathf.Epsilon)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+                yield return null;
+            }
+
+            transform.position = target;
+            canMove = true;
+            TileCheck();
         }
-
-        target = new Vector2(Mathf.RoundToInt(target.x), Mathf.RoundToInt(target.y));
-
-        while (Vector2.Distance(target, transform.position) > Mathf.Epsilon)
+        else
         {
-            transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
             yield return null;
         }
-
-        transform.position = target;
-        canMove = true;
-        TileCheck();
+       
     }
 
 
@@ -164,7 +179,9 @@ public class Character : MonoBehaviour
 
     // Raycasts in the direction the character is facing, cycles though the array of what was raycasted, if there were any characters other than this instance, destroy them
     void Shoot ()
-    {        
+    {
+        bulletCount--;
+        GameMenu.instance.UpdateUI();
         Vector2 d = Vector2.up;
         switch (direction)
         {
@@ -208,7 +225,6 @@ public class Character : MonoBehaviour
     // Dying sequence
     public virtual void Die()
     {
-        print("Played base death");
         StartCoroutine("DelayDeath");
         ParticleSystem p = Instantiate(deathPartlecFX,transform.position,Quaternion.identity);
         p.Play();

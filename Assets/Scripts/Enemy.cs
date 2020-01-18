@@ -7,6 +7,6 @@ public class Enemy : Character
     public override void Die()
     {
         base.Die();
-        print("Is Enemy");
+        LevelManager.instance.EnemyDied(this);
     }
 }
