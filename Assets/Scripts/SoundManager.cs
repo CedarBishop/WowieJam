@@ -26,6 +26,7 @@ public class SoundManager : MonoBehaviour
         for (int i = 0; i < sounds.Length; i++)
         {
             GameObject _go = new GameObject("Sound_" + i + "_" + sounds[i].name);
+            _go.transform.parent = transform;
             sounds[i].SetSource(_go.AddComponent<AudioSource>());
         }
     }

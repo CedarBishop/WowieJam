@@ -15,8 +15,9 @@ public class Character : MonoBehaviour
     public int stepCount;
     Vector2 target;
     bool canMove;
+    protected bool isDead;
 
-    void Start()
+    protected virtual void Start()
     {
         SoundManager.instance.Play("Transistion");
         // Set starting Rotation
@@ -199,7 +200,6 @@ public class Character : MonoBehaviour
     // Checks to see if there is a wall in the direction the character is facing if so return false and dont move
     bool CheckIfCanMoveInDirection (Direction d)
     {
-        print(gameObject.name + d);
         switch (d)
         {
             case Direction.Up:

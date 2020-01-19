@@ -6,10 +6,22 @@ public class Player : Character
 {
     public int attackCount = 4;
 
+    protected override void Start()
+    {
+        base.Start();
+        isDead = false;
+        LevelManager.instance.playerIsDead = false;
+    }
+
     public override void Die()
     {
-        base.Die();
-        LevelManager.instance.RestartLevel(); 
+        if (isDead == false)
+        {
+            isDead = true;
+            base.Die();
+            LevelManager.instance.playerIsDead = true;
+            LevelManager.instance.RestartLevel();
+        }        
     }
 
     protected override void Attack()
