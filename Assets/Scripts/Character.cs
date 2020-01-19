@@ -157,6 +157,44 @@ public class Character : MonoBehaviour
        
     }
 
+    IEnumerator PushTo(Direction d)
+    {
+        
+        canMove = false;
+        target = new Vector2(transform.position.x,transform.position.y);
+        switch (d)
+        {
+            case Direction.Up:
+                target += Vector2.up;
+                break;
+            case Direction.Down:
+                target += Vector2.down;
+                break;
+            case Direction.Left:
+                target += Vector2.left;
+                break;
+            case Direction.Right:
+                target += Vector2.right;
+                break;
+            default:                    
+                break;
+        }            
+            
+        target = new Vector2(Mathf.RoundToInt(target.x), Mathf.RoundToInt(target.y));
+
+        SoundManager.instance.Play("Move");
+        while (Vector2.Distance(target, transform.position) > Mathf.Epsilon)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+            yield return null;
+        }
+
+        transform.position = target;
+        canMove = true;
+        TileCheck();       
+
+    }
+
 
     // Checks to see if there is a wall in the direction the character is facing if so return false and dont move
     bool CheckIfCanMoveInDirection (Direction d)
@@ -183,7 +221,7 @@ public class Character : MonoBehaviour
     }
 
 
-    // Raycasts in the direction the character is facing, cycles though the array of what was raycasted, if there were any characters other than this instance, destroy them
+    // Dont Delete, is needed to override in derived classes
     protected virtual void Attack ()
     {
         
@@ -220,7 +258,7 @@ public class Character : MonoBehaviour
         {           
             if (colliders[i].GetComponent<PushTile>())
             {
-                StartCoroutine(MoveTo(colliders[i].GetComponent<PushTile>().direction));
+                StartCoroutine(PushTo(colliders[i].GetComponent<PushTile>().direction));
                 return;
             }           
         }
