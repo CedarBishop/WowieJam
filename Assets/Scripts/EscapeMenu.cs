@@ -13,7 +13,7 @@ public class EscapeMenu : MonoBehaviour
     }
     public void MainMenu()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void QuitGame()
