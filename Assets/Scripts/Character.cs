@@ -99,9 +99,9 @@ public class Character : MonoBehaviour
             }
             direction = (Direction)directionNum;
         }
-        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-                Attack();          
+            Attack();          
         }
 
 
