@@ -1233,11 +1233,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Transistion Image
       objectReference: {fileID: 0}
-    - target: {fileID: 8012975850354475385, guid: df28b2865bbbb1e44b27d1201afd8dff,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df28b2865bbbb1e44b27d1201afd8dff, type: 3}
 --- !u!95 &4329236944581241182 stripped

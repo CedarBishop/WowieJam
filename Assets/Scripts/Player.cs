@@ -39,7 +39,7 @@ public class Player : Character
     {
         if (attackCount > 0)
         {
-            attackCount--;
+            if(attackCount > 0) attackCount--;
             SoundManager.instance.Play("Shoot");
             GameMenu.instance.UpdateUI();
             Vector2 d = Vector2.up;
