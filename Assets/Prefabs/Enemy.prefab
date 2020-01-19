@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: e6b5fcfb15be0f94189dc0c61bf572e2, type: 3}
   m_Color: {r: 0.3584906, g: 0.34665364, b: 0.34665364, a: 1}
   m_FlipX: 0
@@ -112,16 +112,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44a2c9f93c36fde439ab02de5f0d92d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingDirection: 0
-  direction: 0
+  startingDirection: 3
   speed: 5
   UnwalkableLayer:
     serializedVersion: 2
     m_Bits: 256
   deathParticleFX: {fileID: 2513062219277334930, guid: 272f7f3f691e3f84aaf54a48ba59b2be,
     type: 3}
-  stepCount: 3
-  attackCount: 4
+  stepCount: 2
+  attackCount: 1
+  shootSprite: {fileID: 4878132349622966949, guid: f40b6ba7cf420eb4f8ca15560e20ae6b,
+    type: 3}
+  dTemp: {x: 0, y: 0}
 --- !u!1 &7005383541842977930
 GameObject:
   m_ObjectHideFlags: 0
