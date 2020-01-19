@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Cedar Scenes/Main Menu.unity
+    guid: e00db602d6fa6d047adbb99be9977d7f
+  - enabled: 1
     path: Assets/Scenes/Cedar Scenes/cbLevel1.unity
     guid: 574d93962ee33534d8569ff3887f84ce
   - enabled: 1
     path: Assets/Scenes/Cedar Scenes/cbLevel2.unity
     guid: ec64652f65d0ca24ba9d59a15a3c07a2
+  - enabled: 1
+    path: Assets/Scenes/Cedar Scenes/cbLevel3.unity
+    guid: 1ced0930b1eca064195035214311d94e
   m_configObjects: {}
