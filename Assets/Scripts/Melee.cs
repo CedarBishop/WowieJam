@@ -9,18 +9,18 @@ public class Melee : Enemy
 
     public int attackCount = 4;
 
-    public void Attack()
+    protected override void Attack()
     {
         if (attackCount > 0)
         {
             attackCount--;
-            SoundManager.PlaySound("Shoot");
+            SoundManager.instance.Play("Shoot");
             RaycastHit2D[] hit = Physics2D.BoxCastAll(transform.position, size, 0, Vector2.up);
             if (hit == null)
             {
                 return;
             }
-            SoundManager.PlaySound("Hit");
+            SoundManager.instance.Play("Hit");
             for (int i = 0; i < hit.Length; i++)
             {
                 if (hit[i].collider.gameObject != gameObject)

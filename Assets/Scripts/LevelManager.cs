@@ -8,15 +8,13 @@ public class LevelManager : MonoBehaviour
     public static LevelManager instance = null;
     public static List<Enemy> enemies = new List<Enemy>();
 
-   
-    public string[] levels;
-    private string mainMenuName = "MainMenu";
+    public bool playerIsDead;
+    private int mainMenuBuildIndex = 0;
 
-    private string targetScene;
+    private int targetScene;
 
     Animator transitionAnimator;
 
-    private int currentLevel = 0;
 
     private void Awake()
     {
@@ -28,7 +26,6 @@ public class LevelManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        DontDestroyOnLoad(gameObject);
     }
 
     private void Start()
@@ -44,14 +41,14 @@ public class LevelManager : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        targetScene = levels[currentLevel + 1];
+        targetScene = SceneManager.GetActiveScene().buildIndex;
+        targetScene++;
         StartCoroutine("Transistion");
-        currentLevel++;
     }
 
     public void RestartLevel ()
     {
-        targetScene = SceneManager.GetActiveScene().name;
+        targetScene = SceneManager.GetActiveScene().buildIndex;
         StartCoroutine("Transistion");
     }
 
@@ -60,15 +57,14 @@ public class LevelManager : MonoBehaviour
         enemies.Remove(enemy);
         if (enemies.Count <= 0)
         {
-            print("Level Won");
-            LoadNextLevel();
+            StartCoroutine("CheckGameWin");         
         }
 
     }
 
     public void LoadMainMenu ()
     {
-        targetScene = mainMenuName;
+        targetScene = mainMenuBuildIndex;
         StartCoroutine("Transistion");
     }
 
@@ -76,6 +72,17 @@ public class LevelManager : MonoBehaviour
     {
         transitionAnimator.SetTrigger("End");
         yield return new WaitForSeconds(1);
+        print("Loading Level " + (SceneManager.GetActiveScene().buildIndex));
         SceneManager.LoadScene(targetScene);
+    }
+    IEnumerator CheckGameWin ()
+    {
+        yield return new WaitForSeconds(0.15f);
+
+        if (playerIsDead == false)
+        {
+            print("Level Won");
+            LoadNextLevel();
+        }
     }
 }

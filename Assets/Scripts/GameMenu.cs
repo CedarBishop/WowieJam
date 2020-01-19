@@ -37,4 +37,9 @@ public class GameMenu : MonoBehaviour
         attackCountText.text = player.attackCount.ToString();
         stepCountText.text = player.stepCount.ToString();
     }
+
+    public void MainMenuButtinClick()
+    {
+        LevelManager.instance.LoadMainMenu();
+    }
 }

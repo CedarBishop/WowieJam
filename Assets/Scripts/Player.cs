@@ -6,20 +6,33 @@ public class Player : Character
 {
     public int attackCount = 4;
 
-    public override void Die()
+    protected override void Start()
     {
-        base.Die();
-        LevelManager.instance.RestartLevel(); 
+        base.Start();
+        isDead = false;
+        LevelManager.instance.playerIsDead = false;
     }
 
-    public void Attack()
+    public override void Die()
+    {
+        if (isDead == false)
+        {
+            isDead = true;
+            base.Die();
+            LevelManager.instance.playerIsDead = true;
+            LevelManager.instance.RestartLevel();
+        }        
+    }
+
+    protected override void Attack()
     {
         if (attackCount > 0)
         {
             attackCount--;
-            SoundManager.PlaySound("Shoot");
+            SoundManager.instance.Play("Shoot");
+            GameMenu.instance.UpdateUI();
             Vector2 d = Vector2.up;
-            switch (base.direction)
+            switch (direction)
             {
                 case Direction.Up:
                     d = Vector2.up;
@@ -44,7 +57,7 @@ public class Player : Character
             {
                 return;
             }
-            SoundManager.PlaySound("Hit");
+            
             for (int i = 0; i < hit.Length; i++)
             {
                 //cycles though the array of what was raycasted, if there were any characters other than this instance, destroy them
