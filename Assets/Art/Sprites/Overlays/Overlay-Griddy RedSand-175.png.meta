@@ -1,0 +1,1639 @@
+fileFormatVersion: 2
+guid: 2611e41bb88e65f4681ee8bb72f4cfc7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 774456029907989534
+    second: Overlay-Griddy RedSand-175_0
+  - first:
+      213: -2868258344678799197
+    second: Overlay-Griddy RedSand-175_1
+  - first:
+      213: -2279388860827023914
+    second: Overlay-Griddy RedSand-175_2
+  - first:
+      213: -7741412836726237678
+    second: Overlay-Griddy RedSand-175_3
+  - first:
+      213: -7555669018108646382
+    second: Overlay-Griddy RedSand-175_4
+  - first:
+      213: -6391232770244045266
+    second: Overlay-Griddy RedSand-175_5
+  - first:
+      213: -1682904373992293354
+    second: Overlay-Griddy RedSand-175_6
+  - first:
+      213: 7330472250875183121
+    second: Overlay-Griddy RedSand-175_7
+  - first:
+      213: -586150893099126820
+    second: Overlay-Griddy RedSand-175_8
+  - first:
+      213: 900439961025871502
+    second: Overlay-Griddy RedSand-175_9
+  - first:
+      213: -3915907484609354306
+    second: Overlay-Griddy RedSand-175_10
+  - first:
+      213: 3797635465315066110
+    second: Overlay-Griddy RedSand-175_11
+  - first:
+      213: 6584981975308784152
+    second: Overlay-Griddy RedSand-175_12
+  - first:
+      213: 6153192139303096615
+    second: Overlay-Griddy RedSand-175_13
+  - first:
+      213: 5783876702798957472
+    second: Overlay-Griddy RedSand-175_14
+  - first:
+      213: -1984136908185806387
+    second: Overlay-Griddy RedSand-175_15
+  - first:
+      213: -6227370933259532615
+    second: Overlay-Griddy RedSand-175_16
+  - first:
+      213: 1828368852175691476
+    second: Overlay-Griddy RedSand-175_17
+  - first:
+      213: -1780963180778284775
+    second: Overlay-Griddy RedSand-175_18
+  - first:
+      213: -378624861746020811
+    second: Overlay-Griddy RedSand-175_19
+  - first:
+      213: 6746477177359331711
+    second: Overlay-Griddy RedSand-175_20
+  - first:
+      213: 6374506562266100509
+    second: Overlay-Griddy RedSand-175_21
+  - first:
+      213: -7850378297886806205
+    second: Overlay-Griddy RedSand-175_22
+  - first:
+      213: 401174319938656031
+    second: Overlay-Griddy RedSand-175_23
+  - first:
+      213: -4010408382383717656
+    second: Overlay-Griddy RedSand-175_24
+  - first:
+      213: 7724605495142824908
+    second: Overlay-Griddy RedSand-175_25
+  - first:
+      213: -3880116492128369689
+    second: Overlay-Griddy RedSand-175_26
+  - first:
+      213: 1052043065254838111
+    second: Overlay-Griddy RedSand-175_27
+  - first:
+      213: 710646061739004419
+    second: Overlay-Griddy RedSand-175_28
+  - first:
+      213: 4105318446038189280
+    second: Overlay-Griddy RedSand-175_29
+  - first:
+      213: -8865344288982389233
+    second: Overlay-Griddy RedSand-175_30
+  - first:
+      213: 2972793929016502578
+    second: Overlay-Griddy RedSand-175_31
+  - first:
+      213: 6625556910041191747
+    second: Overlay-Griddy RedSand-175_32
+  - first:
+      213: 6435477405339824551
+    second: Overlay-Griddy RedSand-175_33
+  - first:
+      213: 1587799510608233351
+    second: Overlay-Griddy RedSand-175_34
+  - first:
+      213: -1925641228969984942
+    second: Overlay-Griddy RedSand-175_35
+  - first:
+      213: 9091059661427352713
+    second: Overlay-Griddy RedSand-175_36
+  - first:
+      213: 3024653902328742666
+    second: Overlay-Griddy RedSand-175_37
+  - first:
+      213: -9033813189673067459
+    second: Overlay-Griddy RedSand-175_38
+  - first:
+      213: 2466605908545921624
+    second: Overlay-Griddy RedSand-175_39
+  - first:
+      213: -2173704762212782005
+    second: Overlay-Griddy RedSand-175_40
+  - first:
+      213: 6765185625048351927
+    second: Overlay-Griddy RedSand-175_41
+  - first:
+      213: -54213633344861021
+    second: Overlay-Griddy RedSand-175_42
+  - first:
+      213: -7190168282946333182
+    second: Overlay-Griddy RedSand-175_43
+  - first:
+      213: -916392268603818428
+    second: Overlay-Griddy RedSand-175_44
+  - first:
+      213: -6481468452774146612
+    second: Overlay-Griddy RedSand-175_45
+  - first:
+      213: 3607100148052992952
+    second: Overlay-Griddy RedSand-175_46
+  - first:
+      213: 3915968315608355091
+    second: Overlay-Griddy RedSand-175_47
+  - first:
+      213: -2830929084891465107
+    second: Overlay-Griddy RedSand-175_48
+  - first:
+      213: 5252622290643626289
+    second: Overlay-Griddy RedSand-175_49
+  - first:
+      213: -8841114548383000437
+    second: Overlay-Griddy RedSand-175_50
+  - first:
+      213: 5125609889643154397
+    second: Overlay-Griddy RedSand-175_51
+  - first:
+      213: -6361339361277372842
+    second: Overlay-Griddy RedSand-175_52
+  - first:
+      213: -8521211219670611713
+    second: Overlay-Griddy RedSand-175_53
+  - first:
+      213: -6075305081095694393
+    second: Overlay-Griddy RedSand-175_54
+  - first:
+      213: 5953678465250722535
+    second: Overlay-Griddy RedSand-175_55
+  - first:
+      213: -7662283402049551908
+    second: Overlay-Griddy RedSand-175_56
+  - first:
+      213: 302594542283894557
+    second: Overlay-Griddy RedSand-175_57
+  - first:
+      213: 6576453069817943199
+    second: Overlay-Griddy RedSand-175_58
+  - first:
+      213: -1646746526549150665
+    second: Overlay-Griddy RedSand-175_59
+  - first:
+      213: -2439822586605297391
+    second: Overlay-Griddy RedSand-175_60
+  - first:
+      213: -5082480170125541531
+    second: Overlay-Griddy RedSand-175_61
+  - first:
+      213: 5961194604663995547
+    second: Overlay-Griddy RedSand-175_62
+  - first:
+      213: -8237660943032430846
+    second: Overlay-Griddy RedSand-175_63
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a660b54de6d714195ee96d5e69a192
+      internalID: 774456029907989534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091e9f4a1643a2041948e2c3c2237d8c
+      internalID: -2868258344678799197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8fbbeca694be44cbc11738aa959a4b
+      internalID: -2279388860827023914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ecb96f31151fc4ca88b19e5b3114ac
+      internalID: -7741412836726237678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29de44726136cd949855cb9075b51b16
+      internalID: -7555669018108646382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf431d01abd8f04faa284c2f906fba1
+      internalID: -6391232770244045266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f87087564265a40bfe0e53c39957d8
+      internalID: -1682904373992293354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738c4e3b3382a574c881d211ced57163
+      internalID: 7330472250875183121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8652965f0f3534ab6e0e8c5da24d07
+      internalID: -586150893099126820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147cfb913e71c714e854ff69ebea85da
+      internalID: 900439961025871502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea267ef433ae2847b0e4fbe867f3692
+      internalID: -3915907484609354306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_11
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bc731d90e221347b44f1d86bd432c1
+      internalID: 3797635465315066110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf93058789fb1ce4c9d05859694f7777
+      internalID: 6584981975308784152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9038544f498cf654f921849f7cfc179d
+      internalID: 6153192139303096615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d740afadec1918b46a1311bf6156ba7b
+      internalID: 5783876702798957472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378982d55c7806e4fa90d1364cdfdd89
+      internalID: -1984136908185806387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc68189d595b0d48b0ba6cbb400f854
+      internalID: -6227370933259532615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6ed9f22ef5cb640bc069fe474ddfe1
+      internalID: 1828368852175691476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0e089cdb0143d488897437e952c348
+      internalID: -1780963180778284775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_19
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f48814b1a06df4aa8ed0b5945b37f5
+      internalID: -378624861746020811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d9f35d042612d4ab5fd5a7e0729f95
+      internalID: 6746477177359331711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b2c36098f7e414189009f5410a6288
+      internalID: 6374506562266100509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_22
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3b1b7d188c5264d95ae4608dd81dec
+      internalID: -7850378297886806205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_23
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96874260405ecad4aac593c1951537dd
+      internalID: 401174319938656031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0f594b121a0ba4d9b0502cccd542bc
+      internalID: -4010408382383717656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f882bf7aac29330409f4aece151bf87c
+      internalID: 7724605495142824908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_26
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2eb39925bff6846b4f67c1682e91e3
+      internalID: -3880116492128369689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_27
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494be6c9329abf542b1dc69de01f03f7
+      internalID: 1052043065254838111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_28
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3141c389b81434aa07f3575df88cc6
+      internalID: 710646061739004419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_29
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f441bd74d94f3344b618e032817718a
+      internalID: 4105318446038189280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_30
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554e33850a2ac914f9a9908123b654c6
+      internalID: -8865344288982389233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_31
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554f0cb36d77e8046871831f28245c8c
+      internalID: 2972793929016502578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0491ffc4534c7864ab2535ba999fc345
+      internalID: 6625556910041191747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_33
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cade528ea893074b96b7fc87aac4fea
+      internalID: 6435477405339824551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_34
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff93e0f90837f2b4b86934050d8ee52a
+      internalID: 1587799510608233351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_35
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0a1c59325a7f749a2022353cd0f682
+      internalID: -1925641228969984942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_36
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce281622ced98b149a5c52243c6d887a
+      internalID: 9091059661427352713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_37
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7d56e58d836fd4d90972c73c971263
+      internalID: 3024653902328742666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_38
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cfcf7bbf6513e4b9651c9b4f212bd4
+      internalID: -9033813189673067459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_39
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5f8e22a2a0f894ca2a853fbfe0ec01
+      internalID: 2466605908545921624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d241e6ef8034e47a3cf3f271cfa688
+      internalID: -2173704762212782005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_41
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768120e2e29ab06499cf1933bd178d9e
+      internalID: 6765185625048351927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1279a1f37289bb8448ba462170e97b91
+      internalID: -54213633344861021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_43
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5999e45a0b10ec44a81e5b2bd5068d9d
+      internalID: -7190168282946333182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_44
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0ddfdc746d8524a83f420293ef2509
+      internalID: -916392268603818428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_45
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2352dff43b04b45a0549d86e53df1a
+      internalID: -6481468452774146612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_46
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c7e01677e7c174e981bbff94a95b1a
+      internalID: 3607100148052992952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_47
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a74b31e80c4b446943509e7c736d74
+      internalID: 3915968315608355091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb3e93cffe37f84f8c128c1206f6e7e
+      internalID: -2830929084891465107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_49
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee31fcb4c93a164fb7f3d4664ff0a72
+      internalID: 5252622290643626289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_50
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec719f88e623c64fa59cd33c35209bf
+      internalID: -8841114548383000437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_51
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ebe0910bff85642936499eba1fd54b
+      internalID: 5125609889643154397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_52
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c435b641469144d9307a3224b2eeab
+      internalID: -6361339361277372842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_53
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8172748925fec5b479f6a002db49704a
+      internalID: -8521211219670611713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_54
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137095be11ae4794cb5d7757941bbfd1
+      internalID: -6075305081095694393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_55
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d840ea25aaadc4f936bbde66e47ad4
+      internalID: 5953678465250722535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85433d00323697b43a00951fb5e1d897
+      internalID: -7662283402049551908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_57
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cf3f5721d17034e89d7202c40da06e
+      internalID: 302594542283894557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_58
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281235827e82c784f8b44aa4093f382d
+      internalID: 6576453069817943199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_59
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14f0880f563cef4ea1e9dfcb65fa3d1
+      internalID: -1646746526549150665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_60
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b210bc4530951fe4085a732619514457
+      internalID: -2439822586605297391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_61
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad402d32d68e68f4883e20a7659ebe90
+      internalID: -5082480170125541531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_62
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f96349613ab224c8e17225dffb72d1
+      internalID: 5961194604663995547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Griddy RedSand-175_63
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904f831bac691f94d9f893fe9d642092
+      internalID: -8237660943032430846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

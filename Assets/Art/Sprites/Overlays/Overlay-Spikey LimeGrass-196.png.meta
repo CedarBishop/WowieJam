@@ -1,0 +1,1639 @@
+fileFormatVersion: 2
+guid: e58640fc83908a74e9487f7b3535d4dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2659655133824553906
+    second: Overlay-Spikey LimeGrass-196_0
+  - first:
+      213: -4621979479228210067
+    second: Overlay-Spikey LimeGrass-196_1
+  - first:
+      213: -789511730092678550
+    second: Overlay-Spikey LimeGrass-196_2
+  - first:
+      213: -6901414290709685215
+    second: Overlay-Spikey LimeGrass-196_3
+  - first:
+      213: -8126994927348191014
+    second: Overlay-Spikey LimeGrass-196_4
+  - first:
+      213: -2403766500779042617
+    second: Overlay-Spikey LimeGrass-196_5
+  - first:
+      213: -5641415930561891159
+    second: Overlay-Spikey LimeGrass-196_6
+  - first:
+      213: 677726855483514643
+    second: Overlay-Spikey LimeGrass-196_7
+  - first:
+      213: -5404733477891338045
+    second: Overlay-Spikey LimeGrass-196_8
+  - first:
+      213: 5417307156667696862
+    second: Overlay-Spikey LimeGrass-196_9
+  - first:
+      213: -8946533129836665885
+    second: Overlay-Spikey LimeGrass-196_10
+  - first:
+      213: 3062855492968868556
+    second: Overlay-Spikey LimeGrass-196_11
+  - first:
+      213: -7212027161869195486
+    second: Overlay-Spikey LimeGrass-196_12
+  - first:
+      213: 109481672324812338
+    second: Overlay-Spikey LimeGrass-196_13
+  - first:
+      213: 4428714767827534414
+    second: Overlay-Spikey LimeGrass-196_14
+  - first:
+      213: 2320652739855270078
+    second: Overlay-Spikey LimeGrass-196_15
+  - first:
+      213: -572379627716478831
+    second: Overlay-Spikey LimeGrass-196_16
+  - first:
+      213: -582647209565059692
+    second: Overlay-Spikey LimeGrass-196_17
+  - first:
+      213: 2746327887402693477
+    second: Overlay-Spikey LimeGrass-196_18
+  - first:
+      213: -1443664104386196421
+    second: Overlay-Spikey LimeGrass-196_19
+  - first:
+      213: -5686096487935756332
+    second: Overlay-Spikey LimeGrass-196_20
+  - first:
+      213: 839487727237471434
+    second: Overlay-Spikey LimeGrass-196_21
+  - first:
+      213: 5816474410206024728
+    second: Overlay-Spikey LimeGrass-196_22
+  - first:
+      213: 2664124275125674789
+    second: Overlay-Spikey LimeGrass-196_23
+  - first:
+      213: 2129315976646567941
+    second: Overlay-Spikey LimeGrass-196_24
+  - first:
+      213: 1973244055429316251
+    second: Overlay-Spikey LimeGrass-196_25
+  - first:
+      213: -9050083334958921798
+    second: Overlay-Spikey LimeGrass-196_26
+  - first:
+      213: 3911253263919112666
+    second: Overlay-Spikey LimeGrass-196_27
+  - first:
+      213: 494136252489728102
+    second: Overlay-Spikey LimeGrass-196_28
+  - first:
+      213: -5845829520840589467
+    second: Overlay-Spikey LimeGrass-196_29
+  - first:
+      213: 4067886872584283533
+    second: Overlay-Spikey LimeGrass-196_30
+  - first:
+      213: -8800093129300696628
+    second: Overlay-Spikey LimeGrass-196_31
+  - first:
+      213: 3199200392544092882
+    second: Overlay-Spikey LimeGrass-196_32
+  - first:
+      213: -4108336172472101223
+    second: Overlay-Spikey LimeGrass-196_33
+  - first:
+      213: -657116339960980617
+    second: Overlay-Spikey LimeGrass-196_34
+  - first:
+      213: 3832176699795785356
+    second: Overlay-Spikey LimeGrass-196_35
+  - first:
+      213: 2134583510869506261
+    second: Overlay-Spikey LimeGrass-196_36
+  - first:
+      213: 6771376825212448719
+    second: Overlay-Spikey LimeGrass-196_37
+  - first:
+      213: -8524949814613856406
+    second: Overlay-Spikey LimeGrass-196_38
+  - first:
+      213: -6797479138064951759
+    second: Overlay-Spikey LimeGrass-196_39
+  - first:
+      213: 2990843931428790094
+    second: Overlay-Spikey LimeGrass-196_40
+  - first:
+      213: 7581501677520056851
+    second: Overlay-Spikey LimeGrass-196_41
+  - first:
+      213: -2373843879980327915
+    second: Overlay-Spikey LimeGrass-196_42
+  - first:
+      213: -834640312936540139
+    second: Overlay-Spikey LimeGrass-196_43
+  - first:
+      213: 6217917833418630514
+    second: Overlay-Spikey LimeGrass-196_44
+  - first:
+      213: 4657156964245133111
+    second: Overlay-Spikey LimeGrass-196_45
+  - first:
+      213: 8238143909968465859
+    second: Overlay-Spikey LimeGrass-196_46
+  - first:
+      213: -2453723036231857862
+    second: Overlay-Spikey LimeGrass-196_47
+  - first:
+      213: 5241735030143680013
+    second: Overlay-Spikey LimeGrass-196_48
+  - first:
+      213: -7895056148620912791
+    second: Overlay-Spikey LimeGrass-196_49
+  - first:
+      213: -2075954558245901733
+    second: Overlay-Spikey LimeGrass-196_50
+  - first:
+      213: 1346729155146460489
+    second: Overlay-Spikey LimeGrass-196_51
+  - first:
+      213: 8035250772802477443
+    second: Overlay-Spikey LimeGrass-196_52
+  - first:
+      213: -665331705973974843
+    second: Overlay-Spikey LimeGrass-196_53
+  - first:
+      213: 7650272163072066032
+    second: Overlay-Spikey LimeGrass-196_54
+  - first:
+      213: 6455393302717271020
+    second: Overlay-Spikey LimeGrass-196_55
+  - first:
+      213: -3377651569575538075
+    second: Overlay-Spikey LimeGrass-196_56
+  - first:
+      213: 7840153205695267489
+    second: Overlay-Spikey LimeGrass-196_57
+  - first:
+      213: 3052762556328951314
+    second: Overlay-Spikey LimeGrass-196_58
+  - first:
+      213: -3487070815989271137
+    second: Overlay-Spikey LimeGrass-196_59
+  - first:
+      213: 3431102066709838546
+    second: Overlay-Spikey LimeGrass-196_60
+  - first:
+      213: -8027148137874520308
+    second: Overlay-Spikey LimeGrass-196_61
+  - first:
+      213: -5570209828139544494
+    second: Overlay-Spikey LimeGrass-196_62
+  - first:
+      213: -7252692302340991515
+    second: Overlay-Spikey LimeGrass-196_63
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84183c33a9ef23747b078ca7a9c29444
+      internalID: 2659655133824553906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674c69c548cc3a642ad1bdc127ed97c9
+      internalID: -4621979479228210067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fa715c5bda80b46bb5a18b1b52051c
+      internalID: -789511730092678550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8fa1cf4e50cfc47968587c5b8ade1b
+      internalID: -6901414290709685215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961f15d1395644445a629f5c3d32ee84
+      internalID: -8126994927348191014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4012f29a53ba712459c6f2c16894b67a
+      internalID: -2403766500779042617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2ef570ac6dbe04eb201efe88619589
+      internalID: -5641415930561891159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 70
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b44b18edb280f544bb4740379a828d6
+      internalID: 677726855483514643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf51d70edb0cde143bc62bf5d29df53f
+      internalID: -5404733477891338045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b9cac8fafa3cd45968bef46a082f3a
+      internalID: 5417307156667696862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2e977295ed5b04bae55df72430b347
+      internalID: -8946533129836665885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_11
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905f1b97b01aaf440b57c9946de9f63c
+      internalID: 3062855492968868556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5c131932fafc2468e1d473e80d740c
+      internalID: -7212027161869195486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88bfe2ec8417544593390bde2b78891
+      internalID: 109481672324812338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b55fb33bf7b8ef45a698f2ce884a7d6
+      internalID: 4428714767827534414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93ab8f15d154954eb984aa2a8214936
+      internalID: 2320652739855270078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6731479fe44e7499983a578f50ced2
+      internalID: -572379627716478831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e67ca10edf57b48a8b87a9af8b8068
+      internalID: -582647209565059692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e746c5472a7b2341aa873bbad318d0d
+      internalID: 2746327887402693477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_19
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98757e6900827541b7c7e6e3dd71d5d
+      internalID: -1443664104386196421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e695fc8e73529dc45aad774e816a603d
+      internalID: -5686096487935756332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774a7347517b35e46b3cbc2727be5395
+      internalID: 839487727237471434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_22
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edc9a7892b35d14f84c53bc2e96de7e
+      internalID: 5816474410206024728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_23
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71da39dfa2e4d154f9aa476cddb10984
+      internalID: 2664124275125674789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35623c8c9b1ac8b47b5302df6cf98d5d
+      internalID: 2129315976646567941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247dcb8d415fed94b83f594dff269f76
+      internalID: 1973244055429316251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_26
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a043f3c481fde40ac5aaad558ab706
+      internalID: -9050083334958921798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_27
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a263eebce44f3a94cb1321ee688aabea
+      internalID: 3911253263919112666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_28
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14c48015f600ad469a47524e3ed6edc
+      internalID: 494136252489728102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_29
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bbc15ed9a5d254cb6a7f99c6eac828
+      internalID: -5845829520840589467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_30
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addf5525dff3484468da0596f32e541b
+      internalID: 4067886872584283533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_31
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308cbe47f45886f4495a269c81f02c55
+      internalID: -8800093129300696628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a78354f2619b5419322675b9c2196e
+      internalID: 3199200392544092882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_33
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1a3ce3ab322a340b7b9f36e0b8df5d
+      internalID: -4108336172472101223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_34
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c1f2aafba98de4d846be159df01b0f
+      internalID: -657116339960980617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_35
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d794b925b00834fa0f40fff6802e27
+      internalID: 3832176699795785356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_36
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e97abc04f533ef4c81721123be5ad76
+      internalID: 2134583510869506261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_37
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2503fd26b3f00b444a533a1625565284
+      internalID: 6771376825212448719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_38
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b78e72e8dd6ee4ead943b5344fc797
+      internalID: -8524949814613856406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_39
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdf5e18de2962b42b486f3050c14083
+      internalID: -6797479138064951759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0816bb4ff9e92914a89143d8a9978561
+      internalID: 2990843931428790094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_41
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a0b36d3ec8ff34ca998c66a7b4610d
+      internalID: 7581501677520056851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d077f55c7993654ea6118f666d6c9ae
+      internalID: -2373843879980327915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_43
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b21e0866037464468c6e06f89315e56
+      internalID: -834640312936540139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_44
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725dd3776b1da2d46a2bfc3b978eb743
+      internalID: 6217917833418630514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_45
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a61da2931974c4182e35b63d21008d
+      internalID: 4657156964245133111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_46
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d11ad01727398440b8125db49329e0e
+      internalID: 8238143909968465859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_47
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 20
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cffb3b421d490b49acc148bff4afa14
+      internalID: -2453723036231857862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e092651017274f4d84588de3c81cb95
+      internalID: 5241735030143680013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_49
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cddff7cb93ec84ba69cb6e25a96e95
+      internalID: -7895056148620912791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_50
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba97184362b70343b233f51898d92bb
+      internalID: -2075954558245901733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_51
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc67d685ae0cdd4aa01393517ed03b2
+      internalID: 1346729155146460489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_52
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80af8e5782354154b9f55d81ed278c1f
+      internalID: 8035250772802477443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_53
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76744cf1efecf1d429d927b60690dc47
+      internalID: -665331705973974843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_54
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e233e919f760d284f9335eac29e279d5
+      internalID: 7650272163072066032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_55
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 10
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3acaa84a31ccd4786875d84fa7d1c0
+      internalID: 6455393302717271020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908b41a23e0c28c4a82b29dfe7070671
+      internalID: -3377651569575538075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_57
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6125779eff59a40943dbabc0a0f7ca
+      internalID: 7840153205695267489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_58
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36daa976f7339a3498e62b47e6d5e3fd
+      internalID: 3052762556328951314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_59
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217ae4c54a9d5c0489b16a6ec4b88be2
+      internalID: -3487070815989271137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_60
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be67dfea86e3c846ae5586da2f675a4
+      internalID: 3431102066709838546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_61
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c5fcd26d592fe4fb22cfcc711d7f0e
+      internalID: -8027148137874520308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_62
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a39a21cf534bc441880c8829de0a81b
+      internalID: -5570209828139544494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overlay-Spikey LimeGrass-196_63
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69039349da20c8648ad9d7958f59e1b7
+      internalID: -7252692302340991515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
