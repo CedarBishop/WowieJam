@@ -4,41 +4,62 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public static AudioClip Hit, Shoot, Move, Transistion;
-    static AudioSource audioSrc;
-    void Start()
+    public static SoundManager instance = null;
+
+    [SerializeField]
+    Sound[] sounds;
+    private void Awake()
     {
-        Hit = Resources.Load<AudioClip>("Hit");
-        Shoot = Resources.Load<AudioClip>("Shoot");
-        Move = Resources.Load<AudioClip>("Move");
-        Transistion = Resources.Load<AudioClip>("Transistion");
-        audioSrc = GetComponent<AudioSource>();
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+        DontDestroyOnLoad(gameObject);
     }
 
-    public static void PlaySound(string clip)
+    void Start()
     {
-        switch (clip)
+        for (int i = 0; i < sounds.Length; i++)
         {
-            case "Hit":
-                audioSrc.volume = 1f;
-                audioSrc.PlayOneShot(Hit);
-                audioSrc.volume = 1f;
-                break;
-            case "Shoot":
-                audioSrc.volume = 1f;
-                audioSrc.PlayOneShot(Shoot);
-                audioSrc.volume = 1f;
-                break;
-            case "Move":
-                audioSrc.volume = 1f;
-                audioSrc.PlayOneShot(Move);
-                audioSrc.volume = 1f;
-                break;
-            case "Transistion":
-                audioSrc.volume = 0.3f;
-                audioSrc.PlayOneShot(Transistion);
-                audioSrc.volume = 1f;
-                break;
+            GameObject _go = new GameObject("Sound_" + i + "_" + sounds[i].name);
+            sounds[i].SetSource(_go.AddComponent<AudioSource>());
         }
+    }
+
+    public void Play(string soundName)
+    {
+        for (int i = 0; i < sounds.Length; i++)
+        {
+            if (sounds[i].name == soundName)
+            {
+                sounds[i].Play();
+                return;
+            }
+        }
+    }
+}
+
+[System.Serializable]
+public class Sound
+{
+    public string name;
+    public AudioClip clip;
+    public AudioSource source;
+    [Range(0.0f,1.0f)]public float volume = 1;
+
+    public void SetSource(AudioSource _source)
+    {
+        source = _source;
+        source.clip = clip;
+        source.volume = volume;
+    }
+
+    public void Play()
+    {
+        source.Play();
     }
 }

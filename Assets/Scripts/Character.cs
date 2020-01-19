@@ -8,7 +8,7 @@ public enum Direction { Up, Right, Down, Left}
 public class Character : MonoBehaviour
 {
     public Direction startingDirection;
-    [HideInInspector]public Direction direction;
+    protected Direction direction;
     public float speed;
     public LayerMask UnwalkableLayer;
     public ParticleSystem deathParticleFX;
@@ -18,7 +18,7 @@ public class Character : MonoBehaviour
 
     void Start()
     {
-        SoundManager.PlaySound("Transistion");
+        SoundManager.instance.Play("Transistion");
         // Set starting Rotation
         canMove = true;
         direction = startingDirection;
@@ -51,35 +51,31 @@ public class Character : MonoBehaviour
         // Move Forward
         if (Input.GetKeyDown(KeyCode.W))
         {
-            if(CheckIfCanMoveInDirection(Direction.Up))
-                SoundManager.PlaySound("Move");
+            if(CheckIfCanMoveInDirection(Direction.Up))               
                 StartCoroutine(MoveTo(Direction.Up));
         }
         // Strafe Left
         if (Input.GetKeyDown(KeyCode.A))
         {
             if (CheckIfCanMoveInDirection(Direction.Left))
-                StartCoroutine(MoveTo(Direction.Left));
-                SoundManager.PlaySound("Move");
+                StartCoroutine(MoveTo(Direction.Left));               
         }
         // Move Backward
         if (Input.GetKeyDown(KeyCode.S))
         {
             if (CheckIfCanMoveInDirection(Direction.Down))
-                StartCoroutine(MoveTo(Direction.Down));
-                SoundManager.PlaySound("Move");
+                StartCoroutine(MoveTo(Direction.Down));               
         }
         // Strafe Right
         if (Input.GetKeyDown(KeyCode.D))
         {
             if (CheckIfCanMoveInDirection(Direction.Right))
-                StartCoroutine(MoveTo(Direction.Right));
-                SoundManager.PlaySound("Move");
+                StartCoroutine(MoveTo(Direction.Right));                
         }
         // Rotate Anti-Clockwise
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            SoundManager.PlaySound("Move");
+            SoundManager.instance.Play("Move");
             transform.Rotate(0,0, 90);
             int directionNum = (int)direction;
             directionNum--;
@@ -92,7 +88,7 @@ public class Character : MonoBehaviour
         //Rotate Clockwise
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            SoundManager.PlaySound("Move");
+            SoundManager.instance.Play("Move");
             transform.Rotate(0,0,-90);
             int directionNum = (int)direction;
             directionNum++;
@@ -109,7 +105,7 @@ public class Character : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             LevelManager.instance.RestartLevel();
-            SoundManager.PlaySound("Move");
+            SoundManager.instance.Play("Move");
         }
 
     }
@@ -143,6 +139,7 @@ public class Character : MonoBehaviour
             GameMenu.instance.UpdateUI();
             target = new Vector2(Mathf.RoundToInt(target.x), Mathf.RoundToInt(target.y));
 
+            SoundManager.instance.Play("Move");
             while (Vector2.Distance(target, transform.position) > Mathf.Epsilon)
             {
                 transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
@@ -164,6 +161,7 @@ public class Character : MonoBehaviour
     // Checks to see if there is a wall in the direction the character is facing if so return false and dont move
     bool CheckIfCanMoveInDirection (Direction d)
     {
+        print(gameObject.name + d);
         switch (d)
         {
             case Direction.Up:
@@ -186,17 +184,9 @@ public class Character : MonoBehaviour
 
 
     // Raycasts in the direction the character is facing, cycles though the array of what was raycasted, if there were any characters other than this instance, destroy them
-    void Attack ()
+    protected virtual void Attack ()
     {
-        GameMenu.instance.UpdateUI();
-
-        if (gameObject.GetComponent<Shooter>() != null) gameObject.GetComponent<Shooter>().Attack();
-
-        if (gameObject.GetComponent<Melee>() != null) gameObject.GetComponent<Melee>().Attack();
-
-        if (gameObject.GetComponent<Player>() != null) gameObject.GetComponent<Player>().Attack(); 
-
-
+        
     }
 
     // Dying sequence
@@ -206,6 +196,7 @@ public class Character : MonoBehaviour
         ParticleSystem p = Instantiate(deathParticleFX, transform.position,Quaternion.identity);
         p.Play();
         Destroy(p.gameObject,0.2f);
+        SoundManager.instance.Play("Hit");
     }
 
     // Delay so dying animation can be played

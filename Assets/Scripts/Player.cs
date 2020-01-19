@@ -12,14 +12,15 @@ public class Player : Character
         LevelManager.instance.RestartLevel(); 
     }
 
-    public void Attack()
+    protected override void Attack()
     {
         if (attackCount > 0)
         {
             attackCount--;
-            SoundManager.PlaySound("Shoot");
+            SoundManager.instance.Play("Shoot");
+            GameMenu.instance.UpdateUI();
             Vector2 d = Vector2.up;
-            switch (base.direction)
+            switch (direction)
             {
                 case Direction.Up:
                     d = Vector2.up;
@@ -44,7 +45,7 @@ public class Player : Character
             {
                 return;
             }
-            SoundManager.PlaySound("Hit");
+            
             for (int i = 0; i < hit.Length; i++)
             {
                 //cycles though the array of what was raycasted, if there were any characters other than this instance, destroy them

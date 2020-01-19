@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cedar Scenes/cbLevel2.unity
     guid: ec64652f65d0ca24ba9d59a15a3c07a2
+  - enabled: 1
+    path: Assets/Scenes/Cedar Scenes/cbLevel3.unity
+    guid: 1ced0930b1eca064195035214311d94e
   m_configObjects: {}

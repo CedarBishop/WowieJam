@@ -6,14 +6,14 @@ public class Shooter : Enemy
 {
     public int attackCount = 4;
 
-    public void Attack()
+    protected override void Attack()
     {
         if (attackCount > 0)
         {
-            SoundManager.PlaySound("Shoot");
+            SoundManager.instance.Play("Shoot");
             attackCount--;
             Vector2 d = Vector2.up;
-            switch (base.direction)
+            switch (direction)
             {
                 case Direction.Up:
                     d = Vector2.up;
