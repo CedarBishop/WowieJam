@@ -3263,6 +3263,28 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 94391300033074392, guid: 800ee24f24562844bb4986a75c7f13af,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5283296233543993121, guid: 800ee24f24562844bb4986a75c7f13af,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: b349e9720590827469df567413f1d783,
+        type: 2}
+    - target: {fileID: 5283296233543993121, guid: 800ee24f24562844bb4986a75c7f13af,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5121454301648514345, guid: b349e9720590827469df567413f1d783,
+        type: 2}
+    - target: {fileID: 5283296233543993121, guid: 800ee24f24562844bb4986a75c7f13af,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 800ee24f24562844bb4986a75c7f13af, type: 3}
 --- !u!1001 &7847043370772821103
