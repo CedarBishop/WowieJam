@@ -43,7 +43,7 @@ public class Character : MonoBehaviour
     }
 
 
-    private void Update()
+    protected virtual void Update()
     {
         if (canMove == false)
         {
@@ -103,11 +103,7 @@ public class Character : MonoBehaviour
         {
                 Attack();          
         }
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            LevelManager.instance.RestartLevel();
-            SoundManager.instance.Play("Move");
-        }
+
 
     }
 

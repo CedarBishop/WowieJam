@@ -13,6 +13,15 @@ public class Player : Character
         LevelManager.instance.playerIsDead = false;
     }
 
+    protected override void Update()
+    {
+        base.Update();
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            LevelManager.instance.RestartLevel();
+        }
+    }
+
     public override void Die()
     {
         if (isDead == false)

@@ -30,6 +30,7 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
+        enemies.Clear();
         transitionAnimator = GameMenu.instance.transistionImage;
         transitionAnimator.SetTrigger("Start");
         Enemy[] arr = FindObjectsOfType<Enemy>();
@@ -41,20 +42,22 @@ public class LevelManager : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        targetScene = SceneManager.GetActiveScene().buildIndex;
-        targetScene++;
+        targetScene = SceneManager.GetActiveScene().buildIndex + 1;
+        print("Load next Level into level " + targetScene);
         StartCoroutine("Transistion");
     }
 
     public void RestartLevel ()
     {
         targetScene = SceneManager.GetActiveScene().buildIndex;
+        print("restart into level " + targetScene);
         StartCoroutine("Transistion");
     }
 
     public void EnemyDied (Enemy enemy)
     {
         enemies.Remove(enemy);
+        
         if (enemies.Count <= 0)
         {
             StartCoroutine("CheckGameWin");         
@@ -72,7 +75,6 @@ public class LevelManager : MonoBehaviour
     {
         transitionAnimator.SetTrigger("End");
         yield return new WaitForSeconds(1);
-        print("Loading Level " + (SceneManager.GetActiveScene().buildIndex));
         SceneManager.LoadScene(targetScene);
     }
     IEnumerator CheckGameWin ()
