@@ -5,6 +5,8 @@ using UnityEngine;
 public class Shooter : Enemy
 {
     public int attackCount = 4;
+    public GameObject shootSprite;
+    private Vector2 dTemp;
 
     protected override void Attack()
     {
@@ -30,8 +32,11 @@ public class Shooter : Enemy
                 default:
                     break;
             }
-
-            RaycastHit2D[] hit = Physics2D.RaycastAll(transform.position, d, 10);
+            GameObject go = Instantiate(shootSprite, gameObject.transform.position, Quaternion.identity);
+            go.GetComponent<Bullet>().parent = gameObject;
+            dTemp = d;
+            go.GetComponent<Bullet>().direction = dTemp;
+            /*RaycastHit2D[] hit = Physics2D.RaycastAll(transform.position, d, 10);
 
 
             if (hit == null)
@@ -49,7 +54,7 @@ public class Shooter : Enemy
                     }
                 }
 
-            }
+            }*/
         }
     }
 }

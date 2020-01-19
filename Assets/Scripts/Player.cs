@@ -5,6 +5,8 @@ using UnityEngine;
 public class Player : Character
 {
     public int attackCount = 4;
+    public GameObject shootSprite;
+    public Vector2 dTemp;
 
     protected override void Start()
     {
@@ -58,7 +60,11 @@ public class Player : Character
                 default:
                     break;
             }
-
+            GameObject go = Instantiate(shootSprite, gameObject.transform.position, Quaternion.identity);
+            go.GetComponent<Bullet>().parent = gameObject;
+            dTemp = d;
+            go.GetComponent<Bullet>().direction = dTemp;
+            /*
             RaycastHit2D[] hit = Physics2D.RaycastAll(transform.position, d, 10);
 
 
@@ -78,7 +84,7 @@ public class Player : Character
                     }
                 }
 
-            }
+            }*/
         }
     }
 }

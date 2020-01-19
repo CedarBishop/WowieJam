@@ -110,6 +110,7 @@ public class Character : MonoBehaviour
     // moves one tile in the direction of travel
     IEnumerator MoveTo(Direction d)
     {
+        
         if (stepCount > 0)
         {
             canMove = false;
@@ -131,7 +132,6 @@ public class Character : MonoBehaviour
                     target = transform.position;
                     break;
             }
-
             stepCount--;
             GameMenu.instance.UpdateUI();
             target = new Vector2(Mathf.RoundToInt(target.x), Mathf.RoundToInt(target.y));
@@ -149,6 +149,7 @@ public class Character : MonoBehaviour
         }
         else
         {
+            if (gameObject.GetComponent<Player>() != null) stepCount--;
             yield return null;
         }
        
@@ -199,7 +200,7 @@ public class Character : MonoBehaviour
         switch (d)
         {
             case Direction.Up:
-                return (!Physics2D.Raycast(transform.position,transform.up,1,UnwalkableLayer));
+                return (!Physics2D.Raycast(transform.position,transform.up,1,UnwalkableLayer)); 
                 
             case Direction.Right:
                 return (!Physics2D.Raycast(transform.position, transform.right, 1, UnwalkableLayer));

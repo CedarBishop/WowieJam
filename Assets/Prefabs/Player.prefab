@@ -72,9 +72,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: e6b5fcfb15be0f94189dc0c61bf572e2, type: 3}
-  m_Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
+  m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -112,16 +112,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bab95ee430d8bd4594b5182e6623db7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingDirection: 0
-  direction: 0
+  startingDirection: 2
   speed: 5
   UnwalkableLayer:
     serializedVersion: 2
     m_Bits: 256
   deathParticleFX: {fileID: 2513062219277334930, guid: 272f7f3f691e3f84aaf54a48ba59b2be,
     type: 3}
-  stepCount: 3
-  attackCount: 4
+  stepCount: 2
+  attackCount: 1
+  shootSprite: {fileID: 6337569273891340310, guid: b7291bbf41cb0f844b1e0de87c087c2f,
+    type: 3}
+  dTemp: {x: 0, y: 0}
 --- !u!1 &7005383541842977930
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,7 +192,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 1520504f7eada094f8f375194094976f, type: 3}
   m_Color: {r: 0.08926833, g: 1, b: 0, a: 1}
   m_FlipX: 0
@@ -270,7 +272,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 93f0e6e4dbea1c24d9f84f0c653b7b33, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
