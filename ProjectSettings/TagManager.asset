@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Manager
   - Enemy
+  - Unwalkable
   layers:
   - Default
   - TransparentFX
