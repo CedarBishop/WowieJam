@@ -119,5 +119,5 @@ MonoBehaviour:
     type: 3}
   stepCount: 2
   attackCount: 1
-  shootSprite: {fileID: 4878132349622966949, guid: f40b6ba7cf420eb4f8ca15560e20ae6b,
+  shootSprite: {fileID: 6337569273891340310, guid: b7291bbf41cb0f844b1e0de87c087c2f,
     type: 3}

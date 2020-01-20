@@ -11,7 +11,7 @@ public class Bullet : MonoBehaviour
     {
         transform.Translate(direction * Time.deltaTime * 10);
     }
-    void OnCollisionEnter2D(Collision2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject != parent)
         {
