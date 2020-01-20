@@ -13,6 +13,7 @@ public class GameMenu : MonoBehaviour
     public Animator transistionImage;
     private Player player;
     public TextMeshProUGUI textLevel;
+    public Text restartText;
 
 
     private void Awake()
@@ -30,13 +31,20 @@ public class GameMenu : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        restartText.gameObject.SetActive(false);
         
     }
 
     public void UpdateUI()
     {
-        attackCountText.text = player.attackCount.ToString();
-        stepCountText.text = player.stepCount.ToString();
+        int attackCount = player.attackCount;
+        int stepCount = player.stepCount;
+        attackCountText.text = attackCount.ToString();
+        stepCountText.text = stepCount.ToString();
+        if (attackCount <= 0 && stepCount <= 0)
+        {
+            restartText.gameObject.SetActive(true);
+        }
     }
 
     public void MainMenuButtinClick()
