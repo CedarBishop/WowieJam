@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Player : Character
 {
-    public int attackCount = 4;
     public GameObject shootSprite;
     public Vector2 dTemp;
 
@@ -13,6 +12,7 @@ public class Player : Character
         base.Start();
         isDead = false;
         LevelManager.instance.playerIsDead = false;
+        GameMenu.instance.UpdateUI();
     }
 
     protected override void Update()

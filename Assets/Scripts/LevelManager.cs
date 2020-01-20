@@ -15,6 +15,8 @@ public class LevelManager : MonoBehaviour
     private int targetScene;
 
     Animator transitionAnimator;
+    public int startingSteps;
+    public int startingBullets;
 
 
     private void Awake()

@@ -12,7 +12,8 @@ public class Character : MonoBehaviour
     public float speed;
     public LayerMask UnwalkableLayer;
     public ParticleSystem deathParticleFX;
-    public int stepCount;
+    [HideInInspector]public int stepCount;
+    [HideInInspector] public int attackCount;
     Vector2 target;
     bool canMove;
     protected bool isDead;
@@ -40,6 +41,8 @@ public class Character : MonoBehaviour
             default:
                 break;
         }
+        stepCount = LevelManager.instance.startingSteps;
+        attackCount = LevelManager.instance.startingBullets;
     }
 
 

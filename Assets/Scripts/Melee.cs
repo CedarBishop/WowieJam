@@ -7,7 +7,6 @@ public class Melee : Enemy
     private Player player;
     public Vector2 size = new Vector2(3, 3);
 
-    public int attackCount = 4;
 
     protected override void Attack()
     {

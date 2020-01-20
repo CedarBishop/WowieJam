@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Shooter : Enemy
 {
-    public int attackCount = 4;
     public GameObject shootSprite;
     private Vector2 dTemp;
 
