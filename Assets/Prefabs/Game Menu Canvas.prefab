@@ -218,7 +218,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 3471ce54e53ef664581c28f18e3d51f5, type: 3}
+    m_Font: {fileID: 12800000, guid: a6178c7453332e846acebc45d7fb7697, type: 3}
     m_FontSize: 32
     m_FontStyle: 0
     m_BestFit: 1
@@ -295,7 +295,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 3471ce54e53ef664581c28f18e3d51f5, type: 3}
+    m_Font: {fileID: 12800000, guid: a6178c7453332e846acebc45d7fb7697, type: 3}
     m_FontSize: 32
     m_FontStyle: 0
     m_BestFit: 1
@@ -495,7 +495,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 3471ce54e53ef664581c28f18e3d51f5, type: 3}
+    m_Font: {fileID: 12800000, guid: a6178c7453332e846acebc45d7fb7697, type: 3}
     m_FontSize: 32
     m_FontStyle: 0
     m_BestFit: 1
@@ -572,7 +572,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 3471ce54e53ef664581c28f18e3d51f5, type: 3}
+    m_Font: {fileID: 12800000, guid: a6178c7453332e846acebc45d7fb7697, type: 3}
     m_FontSize: 32
     m_FontStyle: 0
     m_BestFit: 1
@@ -596,6 +596,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Transistion Image
+      objectReference: {fileID: 0}
+    - target: {fileID: 8012975850354475385, guid: df28b2865bbbb1e44b27d1201afd8dff,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8012975850354475389, guid: df28b2865bbbb1e44b27d1201afd8dff,
         type: 3}
