@@ -9,6 +9,9 @@ public class MainMenu : MonoBehaviour
     public string firstLevelName = "Level1";
 
     public Animator transistionAnimation;
+    public AudioSource musicAudioSource;
+    public Slider musicSlider;
+    public Slider sfxSlider;
 
     private void Start()
     {
@@ -30,5 +33,16 @@ public class MainMenu : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         SceneManager.LoadScene(firstLevelName);
+    }
+
+    public void SetMusicVolume()
+    {
+        PlayerPrefs.SetFloat("MusicVolume",musicSlider.value);
+        musicAudioSource.volume = musicSlider.value;
+    }
+
+    public void SetSFXVolume ()
+    {
+        PlayerPrefs.SetFloat("SFXVolume", sfxSlider.value);
     }
 }

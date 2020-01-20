@@ -45,22 +45,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: 
-    clip: {fileID: 0}
+  - name: Shoot
+    clip: {fileID: 8300000, guid: 636f8632bcc4e024fb21765f22488965, type: 3}
     source: {fileID: 0}
-    volume: 0
-  - name: 
-    clip: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: 423927215b85db7439737fabbf27146c, type: 3}
     source: {fileID: 0}
-    volume: 0
-  - name: 
-    clip: {fileID: 0}
+  - name: Transistion
+    clip: {fileID: 8300000, guid: 39e8ac0a48ccea747a2233311880f66a, type: 3}
     source: {fileID: 0}
-    volume: 0
-  - name: 
-    clip: {fileID: 0}
+  - name: Move
+    clip: {fileID: 8300000, guid: 8df32adb87951994a8f1c8c168c31760, type: 3}
     source: {fileID: 0}
-    volume: 0
 --- !u!82 &1952849229
 AudioSource:
   m_ObjectHideFlags: 0
