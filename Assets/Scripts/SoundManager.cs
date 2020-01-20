@@ -26,7 +26,7 @@ public class SoundManager : MonoBehaviour
     void Start()
     {
         musicAudioSource = GetComponent<AudioSource>();
-        musicAudioSource.volume = PlayerPrefs.GetFloat("MusicVolume",1.0f);
+        musicAudioSource.volume = PlayerPrefs.GetFloat("MusicVolume",0.2f);
         for (int i = 0; i < sounds.Length; i++)
         {
             GameObject _go = new GameObject("Sound_" + i + "_" + sounds[i].name);
@@ -34,7 +34,7 @@ public class SoundManager : MonoBehaviour
             sounds[i].SetSource(_go.AddComponent<AudioSource>());
             sfx.Add(_go.GetComponent<AudioSource>());
         }
-        SetSFXVolume(PlayerPrefs.GetFloat("SFXVolume", 1.0f));
+        SetSFXVolume(PlayerPrefs.GetFloat("SFXVolume", 0.2f));
     }
 
     public void Play(string soundName)
