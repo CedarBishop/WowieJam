@@ -5,10 +5,6 @@ using UnityEngine;
 public class PushTile : MonoBehaviour
 {
     public Direction direction;
-    public Sprite spriteUp;
-    public Sprite spriteDown;
-    public Sprite spriteLeft;
-    public Sprite spriteRight;
     private SpriteRenderer sr;
 
     private void Start()
@@ -18,16 +14,16 @@ public class PushTile : MonoBehaviour
         switch (direction)
         {
             case Direction.Up:
-                sr.sprite = spriteUp;
+                transform.rotation = Quaternion.Euler(0, 0, -180);
                 break;
             case Direction.Down:
-                sr.sprite = spriteDown;
+                transform.rotation = Quaternion.Euler(0, 0, 0);
                 break;
             case Direction.Left:
-                sr.sprite = spriteLeft;
+                transform.rotation = Quaternion.Euler(0, 0, -90);
                 break;
             case Direction.Right:
-                sr.sprite = spriteRight;
+                transform.rotation = Quaternion.Euler(0, 0, 90);
                 break;
 
         }
