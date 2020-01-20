@@ -5,6 +5,8 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     public static SoundManager instance = null;
+    AudioSource musicAudioSource;
+    List<AudioSource> sfx = new List<AudioSource>();
 
     [SerializeField]
     Sound[] sounds;
@@ -23,12 +25,16 @@ public class SoundManager : MonoBehaviour
 
     void Start()
     {
+        musicAudioSource = GetComponent<AudioSource>();
+        musicAudioSource.volume = PlayerPrefs.GetFloat("MusicVolume",1.0f);
         for (int i = 0; i < sounds.Length; i++)
         {
             GameObject _go = new GameObject("Sound_" + i + "_" + sounds[i].name);
             _go.transform.parent = transform;
             sounds[i].SetSource(_go.AddComponent<AudioSource>());
+            sfx.Add(_go.GetComponent<AudioSource>());
         }
+        SetSFXVolume(PlayerPrefs.GetFloat("SFXVolume", 1.0f));
     }
 
     public void Play(string soundName)
@@ -42,6 +48,21 @@ public class SoundManager : MonoBehaviour
             }
         }
     }
+
+    public void SetMusicVolume(float value)
+    {
+        PlayerPrefs.SetFloat("MusicVolume", value);
+        musicAudioSource.volume = value;
+    }
+
+    public void SetSFXVolume(float value)
+    {
+        PlayerPrefs.SetFloat("SFXVolume", value);
+        foreach (AudioSource source in sfx)
+        {
+            source.volume = value;
+        }
+    }
 }
 
 [System.Serializable]
@@ -50,14 +71,16 @@ public class Sound
     public string name;
     public AudioClip clip;
     public AudioSource source;
-    [Range(0.0f,1.0f)]public float volume = 1;
+    float volume = 1;
 
     public void SetSource(AudioSource _source)
     {
         source = _source;
         source.clip = clip;
-        source.volume = volume;
+        
     }
+
+  
 
     public void Play()
     {
