@@ -46,6 +46,9 @@ TagManager:
   - name: ArtGround
     uniqueID: 1943065083
     locked: 0
+  - name: Entities
+    uniqueID: 869074637
+    locked: 0
   - name: Shadow
     uniqueID: 968081973
     locked: 0

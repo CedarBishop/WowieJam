@@ -50,31 +50,13 @@ public class Character : MonoBehaviour
             return;
         }
         // Move Forward
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
             if(CheckIfCanMoveInDirection(Direction.Up))               
-                StartCoroutine(MoveTo(Direction.Up));
-        }
-        // Strafe Left
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            if (CheckIfCanMoveInDirection(Direction.Left))
-                StartCoroutine(MoveTo(Direction.Left));               
-        }
-        // Move Backward
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            if (CheckIfCanMoveInDirection(Direction.Down))
-                StartCoroutine(MoveTo(Direction.Down));               
-        }
-        // Strafe Right
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            if (CheckIfCanMoveInDirection(Direction.Right))
-                StartCoroutine(MoveTo(Direction.Right));                
+                StartCoroutine("MoveTo");
         }
         // Rotate Anti-Clockwise
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
         {
             SoundManager.instance.Play("Move");
             transform.Rotate(0,0, 90);
@@ -87,7 +69,7 @@ public class Character : MonoBehaviour
             direction = (Direction)directionNum;
         }
         //Rotate Clockwise
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
         {
             SoundManager.instance.Play("Move");
             transform.Rotate(0,0,-90);
@@ -107,31 +89,15 @@ public class Character : MonoBehaviour
 
     }
 
-    // moves one tile in the direction of travel
-    IEnumerator MoveTo(Direction d)
+    // moves one tile in the characters forward direction
+    IEnumerator MoveTo()
     {
         
         if (stepCount > 0)
         {
             canMove = false;
-            switch (d)
-            {
-                case Direction.Up:
-                    target = transform.position + transform.up;
-                    break;
-                case Direction.Down:
-                    target = transform.position + -transform.up;
-                    break;
-                case Direction.Left:
-                    target = transform.position + -transform.right;
-                    break;
-                case Direction.Right:
-                    target = transform.position + transform.right;
-                    break;
-                default:
-                    target = transform.position;
-                    break;
-            }
+            target = transform.position + transform.up;
+         
             stepCount--;
             GameMenu.instance.UpdateUI();
             target = new Vector2(Mathf.RoundToInt(target.x), Mathf.RoundToInt(target.y));
