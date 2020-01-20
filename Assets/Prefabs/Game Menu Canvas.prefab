@@ -64,7 +64,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 3471ce54e53ef664581c28f18e3d51f5, type: 3}
+    m_Font: {fileID: 12800000, guid: a6178c7453332e846acebc45d7fb7697, type: 3}
     m_FontSize: 32
     m_FontStyle: 0
     m_BestFit: 1
@@ -141,7 +141,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 3471ce54e53ef664581c28f18e3d51f5, type: 3}
+    m_Font: {fileID: 12800000, guid: a6178c7453332e846acebc45d7fb7697, type: 3}
     m_FontSize: 32
     m_FontStyle: 0
     m_BestFit: 1
@@ -171,7 +171,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1292043041749313592
 RectTransform:
   m_ObjectHideFlags: 0
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6786894319970504427}
+      - m_Target: {fileID: 0}
         m_MethodName: MainMenu
         m_Mode: 1
         m_Arguments:
@@ -840,7 +840,6 @@ GameObject:
   - component: {fileID: 4329236944720557735}
   - component: {fileID: 4329236944720557732}
   - component: {fileID: 4329236944720557728}
-  - component: {fileID: 6786894319970504427}
   m_Layer: 5
   m_Name: Game Menu Canvas
   m_TagString: Untagged
@@ -954,19 +953,6 @@ MonoBehaviour:
   restartText: {fileID: 1198067773}
   musicSlider: {fileID: 0}
   sfxSlider: {fileID: 0}
---- !u!114 &6786894319970504427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4329236944720557733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93f4c9c12cc663442be030a668b13273, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Menu: {fileID: 94391300033074392}
 --- !u!1 &4329236944882929063
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,7 +1382,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6786894319970504427}
+      - m_Target: {fileID: 0}
         m_MethodName: MainMenu
         m_Mode: 1
         m_Arguments:
@@ -1526,6 +1512,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df28b2865bbbb1e44b27d1201afd8dff, type: 3}
+--- !u!224 &4329236944581241179 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8012975850354475389, guid: df28b2865bbbb1e44b27d1201afd8dff,
+    type: 3}
+  m_PrefabInstance: {fileID: 5991833714943502374}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4329236944581241182 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8012975850354475384, guid: df28b2865bbbb1e44b27d1201afd8dff,
+    type: 3}
+  m_PrefabInstance: {fileID: 5991833714943502374}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &3039001866572671186 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8722330206644895988, guid: df28b2865bbbb1e44b27d1201afd8dff,
@@ -1538,15 +1536,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &4329236944581241182 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 8012975850354475384, guid: df28b2865bbbb1e44b27d1201afd8dff,
-    type: 3}
-  m_PrefabInstance: {fileID: 5991833714943502374}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &4329236944581241179 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8012975850354475389, guid: df28b2865bbbb1e44b27d1201afd8dff,
-    type: 3}
-  m_PrefabInstance: {fileID: 5991833714943502374}
-  m_PrefabAsset: {fileID: 0}

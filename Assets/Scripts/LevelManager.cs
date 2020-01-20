@@ -55,6 +55,7 @@ public class LevelManager : MonoBehaviour
     public void RestartLevel ()
     {
         targetScene = SceneManager.GetActiveScene().buildIndex;
+        GameMenu.instance.textLevel.text = "Level " + targetScene;
         print("restart into level " + targetScene);
         StartCoroutine("Transistion");
     }
@@ -73,6 +74,7 @@ public class LevelManager : MonoBehaviour
     public void LoadMainMenu ()
     {
         targetScene = mainMenuBuildIndex;
+        GameMenu.instance.textLevel.text = "Main Menu";
         StartCoroutine("Transistion");
     }
 

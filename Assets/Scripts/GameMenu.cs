@@ -14,8 +14,8 @@ public class GameMenu : MonoBehaviour
     private Player player;
     public TextMeshProUGUI textLevel;
     public Text restartText;
-    public Slider musicSlider;
-    public Slider sfxSlider;
+    //public Slider musicSlider;
+    //public Slider sfxSlider;
 
 
     private void Awake()
@@ -57,20 +57,29 @@ public class GameMenu : MonoBehaviour
         }
     }
 
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            LevelManager.instance.LoadMainMenu();
+        }
+    }
+
     public void MainMenuButtinClick()
     {
         LevelManager.instance.LoadMainMenu();
     }
 
-    public void SetMusicVolume()
-    {
-        PlayerPrefs.SetFloat("MusicVolume", musicSlider.value);
-        SoundManager.instance.SetMusicVolume(musicSlider.value);
-    }
+    //public void SetMusicVolume()
+    //{
+    //    PlayerPrefs.SetFloat("MusicVolume", musicSlider.value);
+    //    SoundManager.instance.SetMusicVolume(musicSlider.value);
+    //}
 
-    public void SetSFXVolume()
-    {
-        PlayerPrefs.SetFloat("SFXVolume", sfxSlider.value);
-        SoundManager.instance.SetSFXVolume(sfxSlider.value);
-    }
+    //public void SetSFXVolume()
+    //{
+    //    PlayerPrefs.SetFloat("SFXVolume", sfxSlider.value);
+    //    SoundManager.instance.SetSFXVolume(sfxSlider.value);
+    //}
 }
