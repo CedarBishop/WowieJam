@@ -8,19 +8,19 @@ public class MainMenu : MonoBehaviour
 {
     public string firstLevelName = "Level1";
 
-    public Animator transistionAnimation;
+  //  public Animator transistionAnimation;
     public AudioSource musicAudioSource;
     public Slider musicSlider;
     public Slider sfxSlider;
 
     private void Start()
     {
-        transistionAnimation.SetTrigger("Start");
+      //  transistionAnimation.SetTrigger("Start");
     }
 
     public void PlayGame()
     {
-        transistionAnimation.SetTrigger("End");
+       // transistionAnimation.SetTrigger("End");
         StartCoroutine("DelayPlayGame");
     }
 
