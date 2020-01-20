@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class LevelManager : MonoBehaviour
 {
@@ -30,6 +31,8 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
+        targetScene = SceneManager.GetActiveScene().buildIndex;
+        GameMenu.instance.textLevel.text = "Level " + targetScene;
         enemies.Clear();
         transitionAnimator = GameMenu.instance.transistionImage;
         transitionAnimator.SetTrigger("Start");

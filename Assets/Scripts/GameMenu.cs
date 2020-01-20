@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameMenu : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class GameMenu : MonoBehaviour
     public Text stepCountText;
     public Animator transistionImage;
     private Player player;
-
+    public TextMeshProUGUI textLevel;
 
 
     private void Awake()
