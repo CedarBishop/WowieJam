@@ -26442,6 +26442,16 @@ PrefabInstance:
       propertyPath: attackCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 132598627278208428, guid: db5c99bd540eda8498b3cd4b3f9783f8,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.02101466
+      objectReference: {fileID: 0}
+    - target: {fileID: 132598627278208428, guid: db5c99bd540eda8498b3cd4b3f9783f8,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.37391183
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db5c99bd540eda8498b3cd4b3f9783f8, type: 3}
 --- !u!1 &748304890
@@ -43835,6 +43845,16 @@ PrefabInstance:
         type: 3}
       propertyPath: levels.Array.data[1]
       value: cbLevel2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847043371355650065, guid: 7442d2706ae41664090ee0c6c1b54867,
+        type: 3}
+      propertyPath: startingSteps
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847043371355650065, guid: 7442d2706ae41664090ee0c6c1b54867,
+        type: 3}
+      propertyPath: startingBullets
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1313876410, guid: 7442d2706ae41664090ee0c6c1b54867, type: 3}
