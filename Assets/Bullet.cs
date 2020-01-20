@@ -6,12 +6,6 @@ public class Bullet : MonoBehaviour
 {
     public Vector2 direction;
     public GameObject parent;
-    // Start is called before the first frame update
-    void Start()
-    {
-        Destroy(gameObject, 10);
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -34,6 +28,10 @@ public class Bullet : MonoBehaviour
         else if (col.gameObject.GetComponent<Melee>() != null)
         {
             col.gameObject.GetComponent<Melee>().Die();
+        }
+        else if (col.gameObject.tag == "Unwalkable")
+        {
+                Destroy(gameObject);
         }
         }
     }

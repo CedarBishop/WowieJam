@@ -41089,6 +41089,16 @@ PrefabInstance:
       propertyPath: levels.Array.data[1]
       value: cbLevel2
       objectReference: {fileID: 0}
+    - target: {fileID: 7847043371355650065, guid: 7442d2706ae41664090ee0c6c1b54867,
+        type: 3}
+      propertyPath: startingSteps
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847043371355650065, guid: 7442d2706ae41664090ee0c6c1b54867,
+        type: 3}
+      propertyPath: startingBullets
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1313876410, guid: 7442d2706ae41664090ee0c6c1b54867, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7442d2706ae41664090ee0c6c1b54867, type: 3}
