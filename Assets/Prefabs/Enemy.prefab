@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 132598627278208430}
   - component: {fileID: 132598627278208428}
   - component: {fileID: 2926436745511072276}
+  - component: {fileID: 2861823921753317552}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -121,3 +122,22 @@ MonoBehaviour:
   attackCount: 1
   shootSprite: {fileID: 6337569273891340310, guid: b7291bbf41cb0f844b1e0de87c087c2f,
     type: 3}
+--- !u!95 &2861823921753317552
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132598627278208416}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 64e14974cdefe524899fe5163ffdebc0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

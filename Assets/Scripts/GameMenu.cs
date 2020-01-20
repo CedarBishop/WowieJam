@@ -41,6 +41,14 @@ public class GameMenu : MonoBehaviour
     {
         int attackCount = player.attackCount;
         int stepCount = player.stepCount;
+        if (stepCount < 0)
+        {
+            stepCount = 0;
+        }
+        if (attackCount < 0)
+        {
+            attackCount = 0;
+        }
         attackCountText.text = attackCount.ToString();
         stepCountText.text = stepCount.ToString();
         if (attackCount <= 0 && stepCount <= 0)

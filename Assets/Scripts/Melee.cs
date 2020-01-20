@@ -6,6 +6,7 @@ public class Melee : Enemy
 {
     private Player player;
     public Vector2 size = new Vector2(3, 3);
+    public Animator attackAnimator;
 
 
     protected override void Attack()
@@ -14,6 +15,7 @@ public class Melee : Enemy
         {
             attackCount--;
             SoundManager.instance.Play("Shoot");
+            attackAnimator.SetTrigger("Attack");
             RaycastHit2D[] hit = Physics2D.BoxCastAll(transform.position, size, 0, Vector2.up);
             if (hit == null)
             {

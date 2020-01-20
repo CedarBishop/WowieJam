@@ -17,11 +17,11 @@ public class Character : MonoBehaviour
     Vector2 target;
     bool canMove;
     protected bool isDead;
-   //Animator animator;
+   Animator animator;
 
     protected virtual void Start()
     {
-       // animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         SoundManager.instance.Play("Transistion");
         // Set starting Rotation
         canMove = true;
@@ -97,7 +97,7 @@ public class Character : MonoBehaviour
     // moves one tile in the characters forward direction
     IEnumerator MoveTo()
     {
-       // animator.SetBool("IsWalking", true);
+        animator.SetBool("IsWalking", true);
         if (stepCount > 0)
         {
             canMove = false;
@@ -123,7 +123,7 @@ public class Character : MonoBehaviour
             if (gameObject.GetComponent<Player>() != null) stepCount--;
             yield return null;
         }
-        //animator.SetBool("IsWalking", false);
+        animator.SetBool("IsWalking", false);
        
     }
 
